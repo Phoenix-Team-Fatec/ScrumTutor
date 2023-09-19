@@ -10,7 +10,30 @@
     <a href="#tecnologias">Tecnologias</a> | 
     <a href="#equipe">Equipe</a> | 
 </p>
-   
+
+
+## Visão do projeto
+
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos envolvidos_ <br><br>
+> **Status do Projeto: Em processo** :heavy_minus_sign:
+
+## Objetivos 
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos envolvidos_ <br><br>
+> 
+
+## MVP
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos envolvidos_ <br><br>
+> 
+
 <span id="backlogs">
 
 ## :dart: Backlogs
@@ -30,31 +53,33 @@
 ## Backlog das Sprints
 
 ### Sprint 1 - Prototipagem e Backlog do Produto
+
+
 | ITEM   | STATUS |
 | :----: | :----: |
-|Criar GitHub| Concluído |
-|Criar Organização| Concluído |
-|Criar repositório da organização| Concluído |
-|Criar um read.me do repositório| Concluído |
-|Linguagens usadas| Concluído |
-|Backlog do produto| Em processo |
-|Backlog das Sprints| Em processo |
-|Integrantes do grupo| Concluido |
-|Figma navegável| Em processo |
-|Criar conta no figma.| Concluído |
-|Criar um layout simples no figma.| Concluído |
-|Criar um layour simples e navegável do figma.| Concluído |
-|Criar a página home no figma.| Concluído |
-|Criar a página  bibliografia.| Concluído |
-|Criar a página Artefatos no figma.| Concluído |
-|Criar a página  eventos no figma.| Concluído |
-|Criar a página  time no figma. | Concluído |
-|Definir uma identidade visual | Em processo |
-|divisão da página | Concluído |
-|formato das perguntas | Concluído |
-|estilo da avaliação | Concluído |
-|Estudar SCRUM e guardar links da pesquisa.| Concluído |
-|Esboçar o conteúdo escrito que será posto em cada página.| Concluído |
+|Criar GitHub| :white_check_mark: |
+|Criar Organização| :white_check_mark: |
+|Criar repositório da organização| :white_check_mark: |
+|Criar um read.me do repositório| :white_check_mark: |
+|Definir linguagens a ser usadas| :white_check_mark: |
+|Backlog do produto| :no_entry: |
+|Backlog das Sprints| :no_entry: |
+|Definir Integrantes do grupo| :white_check_mark: |
+|Figma navegável| :no_entry: |
+|Criar conta no figma.| :white_check_mark: |
+|Criar um layout simples no figma.| :white_check_mark: |
+|Criar um layour simples e navegável do figma.| :white_check_mark: |
+|Criar a página home no figma.| :white_check_mark: |
+|Criar a página  bibliografia.| :white_check_mark: |
+|Criar a página Artefatos no figma.| :white_check_mark: |
+|Criar a página  eventos no figma.| :white_check_mark: |
+|Criar a página  time no figma. | :white_check_mark: |
+|Definir uma identidade visual | :no_entry: |
+|Definir divisão da página | :white_check_mark: |
+|Formatar as perguntas | :white_check_mark: |
+|Defu=inir estilo da avaliação | :white_check_mark: |
+|Formar uma bibliografia do conteúdo| :white_check_mark: |
+|Definir conteúdo das páginas| :white_check_mark: |
 
 
 ### Sprint 2 - Estruturação da página Web (HTML, CSS, Flask)
