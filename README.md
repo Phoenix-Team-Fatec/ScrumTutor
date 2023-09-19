@@ -137,7 +137,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
    Visual Studio Code - IDE
  </p>
 
- 
+
 
 
 → [Voltar ao topo](#topo)
@@ -148,12 +148,12 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 |    Função     | Nome                     |                               LinkedIn                                |                     GitHub                     |
 | :----------:  | :----------------------- | :-------------------------------------------------------------------: | :--------------------------------------------: |
-| Scrum Master  | Hoton                    |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/matheus-andrade-b1a65b1ba/)                                                      |         <img align="left" title="github-light" height="30px" src="https://user-images.githubusercontent.com/76211125/227561896-a90cea71-7431-4908-ac8d-71fc02603eeb.png#gh-light-mode-only"/>     |
-| Product Owner | Vinicius                 |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      [GitHub]       |
-|   Dev Team    | Guilherme                |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      [GitHub]       |
-|   Dev Team    | Gustavo                  |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      [GitHub]       |  
-|   Dev Team    | Matheus                  |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      [GitHub]       |  
-|   Dev Team    | Samuel                   |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      [GitHub]       |
-|   Dev Team    | João Dantas              |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      [GitHub]       |
+| Scrum Master  | Hoton                    |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/matheus-andrade-b1a65b1ba/)                                                      |         <img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>     |
+| Product Owner | Vinicius                 |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      <img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>        |
+|   Dev Team    | Guilherme                |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      <img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>        |
+|   Dev Team    | Gustavo                  |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      <img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>       |  
+|   Dev Team    | Matheus                  |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      <img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>      |  
+|   Dev Team    | Samuel                   |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      <img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>        |
+|   Dev Team    | João Dantas              |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      <img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>       |
 
 → [Voltar ao topo](#topo)
