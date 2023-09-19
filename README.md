@@ -1,4 +1,3 @@
-<br id="topo">
 <span id="topo">
 <h1 align="center"> FATEC SJC - 1º Semestre ADS </h1>
 
@@ -15,23 +14,26 @@
 ## Visão do projeto
 <span id="visao">
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
-> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos envolvidos_ <br><br>
-> **Status do Projeto: Em processo** :heavy_minus_sign:
+Para clientes interessados em compreender e aplicar o método Scrum em suas equipes, bem como avaliar os membros da equipe Scrum, o PHOENIX TEAM oferece um site que proporciona acesso fácil e abrangente a informações e aplicações relacionados ao Método Ágil Scrum. Nosso objetivo é capacitar os funcionários do cliente para incorporar esse método em seu dia a dia, fornecendo uma ampla gama de recursos relacionados a todos os aspectos do Scrum, como eventos, papéis e artefatos.
 
 ## Objetivos 
 <span id="objetivo">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
-> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos envolvidos_ <br><br>
-> 
+
+> _O nosso produto tem como propósito simplificar o acesso do cliente a informações relacionadas ao SCRUM e aplicações desse método por meio de uma interface convidativa e intuitiva._ <br><br>
+> **Status do Projeto: Em processo** :heavy_minus_sign:
 
 ## MVP
 <span id="mvp">
 
  O Produto Mínimo Viável – ou Minimum Viable Product (MVP) – é a versão simplificada de um produto final de uma startup. O empreendedor vai oferecer o mínimo de funcionalidades com o objetivo de testar o produto ou serviço no mercado.<br><br>
- Sendo assim, o produto mínimo viável feito na primeira sprint é um figma navegável, que pode ser visto [aqui](https://www.figma.com/proto/3EGMxjeFtK0pjAeVxNErMk/SCRUM---PHOENIX?node-id=3-3&starting-point-node-id=3%3A3)
+ ### MVP SPRINT 1
+
+ ### MVP SPRINT 2
+
+ ### MVP SPRINT 3
+
+ ### MVP SPRINT 4
 
 > _O mínimo produto viável também é o objetivo da primeira sprint_  <br><br>
 > 
@@ -42,15 +44,26 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ### Backlog do Produto
 
-| Código | Item                                                                           | 
-| :----: | :----------------------------------------------------------------------------- | 
-| #B01   | Será um site com 7 páginas web, sendo elas Home, Artefatos, Eventos, Papéis, Bibliografia, apêndice e avaliação.| 
-| #B02   | As páginas conterão um menu funcional que direciona para as demais páginas |
-| #B03   | Cada página terá subitens, os quais possuirão cards com definições e exemplos práticos|
-| #B04   | Em cada página existirá perguntas para maior absorção do conteúdo.|
-| #B05   | A página avaliação, conterá cards para cada papel do team scrum, sendo que os requisitos que serão avaliados são: proatividade, autonomia, colaboração e entrega de resultados.|
-| #B06   | Cálculos da avaliação funcional serão tanto parciais (para cada membro do team Scrum) e totais (uma nota média da equipe).|
-| #B07   | Haverá uma padronização estética das páginas, para melhor usabilidade do site.|
+| ID     | Sprint |  US   | Item |  Estimativa de tempo   | Status | Prioridade | 
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| #01    | 1 |EU, enquanto cliente, quero um protótipo navegável para ter uma visão geral do Website| Wireframe | 10h | :white_check_mark: | 100 |
+| #02    | 1 | EU, enquanto cliente, quero visualisar os eventos, os papéis, os artefatos, apêndices e a bibliografia em páginas distintas| Wireframe | 6h | :white_check_mark: | 95 |
+| #03    | 1 |EU, enquanto cliente, quero que haja perguntas com contextos práticos do cotidiano em cada página| Wireframe | 5h | :white_check_mark: | 80 |
+| #04    | 1 | EU, enquanto cliente, quero avaliar minha equipe Scrum através do web site | Wireframe | 4h | :white_check_mark: | 90 |
+| #05    | 1 | EU, enquanto cliente, quero o backlog do produto para ter uma visão geral do prouduto presente no GitHub | Backlog | 3h | :white_check_mark: | 100 |
+| #06    | 2 |Eu, enquanto cliente, quero as páginas  7 páginas web, sendo elas Home, Artefatos, Eventos, Papéis, Bibliografia, apêndice e avaliação. | Website | 20h | :no_entry:|100 |
+| #07    | 2 |Eu, enquanto cliente, quero facilitar a navegação com um menu funcional que direciona para as demais páginas| Website | 3h | :no_entry:|90 |
+| #08    | 2 |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha conceitos teóricos e práticos| Website | 2h | :no_entry:|100 |
+| #09    | 2 |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha perguntas para aplicar o contéudo| Website | 2h |:no_entry:|70| 
+| #10    | 2 |Eu, enquanto cliente, quero a explicação do método de avaliação que será usado (PACER)| Website | 2h |:no_entry:|70 |
+| #11    | 3 |Eu, enquanto cliente , quero avaliar a equipe com os seguintes requisitos: proatividade, autonomia, colaboração e entrega de resultados.| Website | 1h |:no_entry:| 85h |
+| #12    | 3 |Eu, enquanto cliente , quero visualizar as notas individuais e gerais da equipe  no site da avaliação| Website | 5h |:no_entry:|100 |
+| #13    | 3 | Eu, enquanto cliente, quero que este site esteja hospedado na internet, para acessá-lo de qualquer lugar| Website | 5h |:no_entry:|100 |
+| #14    | 3 | Eu, enquanto cliente , quero que as perguntas sejam feitas de maneira dinâmica e contenham justificativas| Website | 5h |:no_entry:| 70 |
+| #15    | 4 | Eu, enquanto cliente, quero que a página contenha uma identidade visual | Website | 8h |:no_entry:| 90 |
+| #16    | 4 | Eu, enquanto cliente, quero que a navegação e usabilidade seja simples e intuitiva| Website | 8h |:no_entry:| 90 |
+
+
 
 ## Backlog das Sprints
 
