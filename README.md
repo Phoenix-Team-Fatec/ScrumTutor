@@ -56,7 +56,7 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 | #08    | 2 |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha conceitos teóricos e práticos| Website | 2h | :no_entry:|100 |
 | #09    | 2 |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha perguntas para aplicar o contéudo| Website | 2h |:no_entry:|70| 
 | #10    | 2 |Eu, enquanto cliente, quero a explicação do método de avaliação que será usado (PACER)| Website | 2h |:no_entry:|70 |
-| #11    | 3 |Eu, enquanto cliente , quero avaliar a equipe com os seguintes requisitos: proatividade, autonomia, colaboração e entrega de resultados.| Website | 1h |:no_entry:| 85h |
+| #11    | 3 |Eu, enquanto cliente , quero avaliar a equipe com os seguintes requisitos: proatividade, autonomia, colaboração e entrega de resultados.| Website | 1h |:no_entry:| 85 |
 | #12    | 3 |Eu, enquanto cliente , quero visualizar as notas individuais e gerais da equipe  no site da avaliação| Website | 5h |:no_entry:|100 |
 | #13    | 3 | Eu, enquanto cliente, quero que este site esteja hospedado na internet, para acessá-lo de qualquer lugar| Website | 5h |:no_entry:|100 |
 | #14    | 3 | Eu, enquanto cliente , quero que as perguntas sejam feitas de maneira dinâmica e contenham justificativas| Website | 5h |:no_entry:| 70 |
