@@ -77,10 +77,10 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 |Criar repositório da organização| :white_check_mark: |
 |Criar um read.me do repositório| :white_check_mark: |
 |Definir linguagens a ser usadas| :white_check_mark: |
-|Backlog do produto| :no_entry: |
-|Backlog das Sprints| :no_entry: |
+|Backlog do produto|  :white_check_mark:  |
+|Backlog das Sprints|  :white_check_mark:  |
 |Definir Integrantes do grupo| :white_check_mark: |
-|Figma navegável| :no_entry: |
+|Figma navegável|  :white_check_mark:  |
 |Criar conta no figma.| :white_check_mark: |
 |Criar um layout simples no figma.| :white_check_mark: |
 |Criar um layour simples e navegável do figma.| :white_check_mark: |
@@ -89,7 +89,7 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 |Criar a página Artefatos no figma.| :white_check_mark: |
 |Criar a página  eventos no figma.| :white_check_mark: |
 |Criar a página  time no figma. | :white_check_mark: |
-|Definir uma identidade visual | :no_entry: |
+|Definir uma identidade visual |  :white_check_mark:  |
 |Definir divisão da página | :white_check_mark: |
 |Formatar as perguntas | :white_check_mark: |
 |Defu=inir estilo da avaliação | :white_check_mark: |
@@ -163,7 +163,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 | :----------:  | :----------------------- | :-------------------------------------------------------------------: | :--------------------------------------------: |
 | Scrum Master  | Hoton                    |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/hoton-oliveira/)                                                   |         [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/hfoliveira90)     |
 | Product Owner | Vinicius                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/vinicius-peretta-5a2436227/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/Peretta)        |
-|   Dev Team    | Guilherme                |<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/thenewjapzzz)     |
+|   Dev Team    | Guilherme                |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/guilherme-sato-42b609292/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/thenewjapzzz)     |
 |   Dev Team    | Gustavo                  |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/gustavo-villela-a9314b268/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/TaldoGus)       |  
 |   Dev Team    | Matheus                  |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/matheus-andrade-b1a65b1ba/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/MatheusAndrade1999)      | 
 |   Dev Team    | Samuel                   |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/samuel-alkmin-machado-52743a292/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/samekmd)        |
