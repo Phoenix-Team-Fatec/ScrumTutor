@@ -97,7 +97,7 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 |Definir uma identidade visual |  :white_check_mark:  |
 |Definir divisão da página | :white_check_mark: |
 |Formatar as perguntas | :white_check_mark: |
-|Defu=inir estilo da avaliação | :white_check_mark: |
+|Definir estilo da avaliação | :white_check_mark: |
 |Formar uma bibliografia do conteúdo| :white_check_mark: |
 |Definir conteúdo das páginas| :white_check_mark: |
 
