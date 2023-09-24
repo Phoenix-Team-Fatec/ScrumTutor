@@ -1,5 +1,7 @@
+![gitphoenix](https://github.com/Phoenix-Team-Fatec/API/assets/89617179/42f465da-8292-4035-b6f1-04c396652135)
+
 <span id="topo">
-<h1 align="center"> FATEC SJC - 1º Semestre ADS </h1>
+<h1 align="center"> FATEC SJC - 1º Semestre ADS - SCRUM TUTOR </h1>
 
 <p align="center">
     <a href="#visao">Visão do projeto</a> | 
@@ -29,6 +31,8 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
  O Produto Mínimo Viável – ou Minimum Viable Product (MVP) – é a versão simplificada de um produto final de uma startup. O empreendedor vai oferecer o mínimo de funcionalidades com o objetivo de testar o produto ou serviço no mercado.<br><br>
  
  ### MVP SPRINT 1
+
+[Vídeo com o MVP da Spint 1](https://youtu.be/1EK8WxrTM-E)
 
  ### MVP SPRINT 2
 
