@@ -104,6 +104,21 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 
 ### Sprint 2 - Estruturação da página Web (HTML, CSS, Flask)
 
+| ITEM   | STATUS |
+| :----: | :----: |
+|ESTUDAR *Rotas e views com Flask* | :no_entry: |
+|MENU | :no_entry: |
+|SubMenu | :no_entry: |
+|Cards |:no_entry:|
+|Perguntas | :no_entry: |
+|Pacer | :no_entry: |
+|Rodapé |:no_entry:|
+|Carrosel | :no_entry: |
+|Estudar GitHub commit| :no_entry: |
+|Flask | :no_entry: |
+|Adicionar o conteúdo às páginas | :no_entry: |
+
+
 ### Sprint 3 - Conclusão das Perguntas e Avaliação
 
 ### Sprint 4 - Estilização
