@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    width: 900px;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: rgb(14, 110, 255);
+}
+
+
+
+
+.imagem {
+    display: flex;
+    justify-content: right;
+    float: right;
+}
+
+.facilita {
+    width: 300px;
+    height: 200px;
+    border-radius: 15%;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 3px solid black;
+   
+
+    
+}
+
+.text-main {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.desc {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 15;
+    
+}
