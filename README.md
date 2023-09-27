@@ -33,6 +33,7 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
  ### MVP SPRINT 1
 
 [Vídeo com o MVP da Spint 1](https://youtu.be/1EK8WxrTM-E)
+https://www.canva.com/design/DAFvKhO-mTE/digvuNrZ7KE9Z1twirSN4w/edit?utm_content=DAFvKhO-mTE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
  ### MVP SPRINT 2
 
