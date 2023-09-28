@@ -1,0 +1,36 @@
+:root{
+    
+    --color-neutral-10: #171717;
+   
+    --color-neutral-40: #f5f5f5;
+}
+
+* {
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+
+}
+main{
+    height: 100vh;
+}
+footer{
+    width: 100%;
+color: var(--color-neutral-40);
+}
+#footer_content{
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem 2.5rem;
+    
+
+}
+
+img{
+
+    max-width: 50px;
+}
+
