@@ -1,26 +1,20 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-items: center;
-    text-align: left;
     margin-top: 5%;
     margin-right: 20%;
     margin-left: 20%;
 }
-input{
-    display: inline-block;
-    align-items: right;
-    text-align: right;
-    margin-left: 5%;
-}
-.check{
-    display: flex;
-    
-}
 h2{
     margin-left: 2.5%;
 }
-h3{
-    display: inline-block;
-    margin-left: 5%;
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.card__ngc
+{
+    display: flex;
 }
