@@ -7,6 +7,7 @@ body{
 }
 h2{
     margin-left: 2.5%;
+    border-radius: 12px;
 }
 .card{
     margin-right: 5%;
@@ -15,14 +16,20 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    background-color: lightgray;
 }
 .check{
-    width: 45%;
+    width: 50%;
+    padding-right: 5%;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    transform: scale(1.35);
 }
 .card__ngc{
     display: flex;
+}
+.card_geral{
+    padding: 2%;
+    background-color: lightgray ;
+    border-radius: 12px;
 }
