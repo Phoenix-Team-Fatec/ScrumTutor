@@ -9,12 +9,20 @@ h2{
     margin-left: 2.5%;
 }
 .card{
+    margin-right: 5%;
+    margin-left: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    background-color: lightgray;
 }
-.card__ngc
-{
+.check{
+    width: 45%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.card__ngc{
     display: flex;
 }
