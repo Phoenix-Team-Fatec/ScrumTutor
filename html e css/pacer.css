@@ -27,6 +27,7 @@ h2{
 }
 .card__ngc{
     display: flex;
+    
 }
 .card_geral{
     padding: 2%;
