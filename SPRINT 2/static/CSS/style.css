@@ -1,0 +1,98 @@
+:root{
+    
+    --color-neutral-10: #171717;
+   
+    --color-neutral-40: #f5f5f5;
+}
+
+/* COMEÇO DO RODAPÉ */
+* {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+
+}
+main{
+    height: 100vh;
+}
+footer{
+    width: 100%;
+color: var(--color-neutral-40);
+}
+#footer_content{
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem 2.5rem;
+    
+
+}
+img{
+
+    max-width: 50px;
+}
+
+/* FIM DO RODAPÉ */
+
+/* COMEÇO DO MENU */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+div #logo img{
+    position:absolute;
+    max-width: 155px;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+#menu_principal{
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    text-align:center;
+}
+
+#menu_principal li {
+    display: inline
+}
+
+#menu_principal li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .6s;
+}
+
+#menu_principal li a:hover {
+    color:black;
+    background-color: white;
+}
+/* FIM DO COME */
+
+
+nav{
+    width: 100%;
+    border: 0px red solid;
+    
+   
+}
+.submenu{
+    background-color: #D9D9D9;
+    border: 0px red solid;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+   
+}

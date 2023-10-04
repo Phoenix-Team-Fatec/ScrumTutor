@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/CSS/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__menu">
+            <div class="header__menu_logo"></div>
+            <div class="header__menu_links">
+                <p class="header__menu_links_link"></p>
+                <div id="logo">
+                    <img src="./imagens/logo-01.png">
+                </div>
+                <nav id="menu_principal">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="">Artefatos do Scrum</a></li>
+                        <li><a href="">Eventos do Scrum</a></li>
+                        <li><a href="">Papéis do Scrum</a></li>
+                        <li><a href="">Apêndice</a></li>
+                        <li><a href="">Bibliografia</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="header__submmenu">
+            {% block header %}
+            {% endblock %}
+        </section>
+    </header>
+    <main class="main">
+
+        {% block main %}
+        {% endblock %}
+
+    </main>
+    <footer>
+        <div id="footer_content">
+            <img src="LogoSite1.png" alt="">
+            
+            &#169
+            2023 Todos os direitos reservados
+
+            
+            <h3>phoenixteam@outlook.com.br</h3></div>
+        </div>
+        
+    </footer>
+</body>
+</html>
