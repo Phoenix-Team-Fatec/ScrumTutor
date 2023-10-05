@@ -13,5 +13,8 @@ def Eventos():
 def pacer():
     return render_template('pacer.html')
 
+@app.route('/artefatos')
+def artefatos():
+    return render_template('artefatos.html')
 
 app.run(debug=True)
