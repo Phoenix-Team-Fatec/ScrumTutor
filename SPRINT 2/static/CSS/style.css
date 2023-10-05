@@ -79,6 +79,7 @@ div #logo img{
 nav{
     width: 100%;
     border: 0px red solid;
+   
     
    
 }
@@ -91,8 +92,60 @@ nav{
     
     
 }
-a{
+.submenu a{
     color: black;
     text-decoration: none;
    
 }
+/* COMEÇO DOS CARDS */
+/* Estilos para o body (opcional) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para os cards */
+.card {
+    justify-content: center;
+    display: flex;
+    background-color:rgb(14, 110, 255);
+    border: 2px solid #000000; /* Adicione uma borda ao card */
+    border-radius: 15px;
+    margin: 20px ;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  
+}
+
+.card:hover {
+    transform: translateY(-8px); /* Efeito de elevação ao passar o mouse */
+}
+
+.card-content {
+    flex: 1;
+    padding: 10px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.card img {
+    width: 500px;
+    max-width: 800px; /* Defina a largura máxima da imagem */
+    height: 300px;
+    border: 2px solid #000000; /* Adicione uma borda à imagem */
+    border-radius: 15px; /* Adicione uma borda arredondada à imagem */
+    margin-left: 10px; /* Adicione margem à esquerda da imagem para separá-la do texto */
+}
+
+/* FIM DOS CARDS  */
