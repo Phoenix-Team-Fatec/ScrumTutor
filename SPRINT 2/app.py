@@ -9,6 +9,9 @@ def home():
 @app.route('/Eventos')
 def Eventos():
     return render_template('eventos.html')
+@app.route('/Pacer')
+def pacer():
+    return render_template('pacer.html')
 
 
 app.run(debug=True)

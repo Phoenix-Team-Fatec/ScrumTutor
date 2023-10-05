@@ -149,3 +149,30 @@ body {
 }
 
 /* FIM DOS CARDS  */
+/* Inicio do PACER */
+.card{
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.check{
+    width: 50%;
+    padding-right: 5%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    transform: scale(1.35);
+}
+.card__ngc{
+    display: flex;
+    
+}
+.card_geral{
+    padding: 2%;
+    background-color: lightgray ;
+    border-radius: 12px;
+}
+/* Fim do PACER */
