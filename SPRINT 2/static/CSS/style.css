@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Oxanium:wght@300;400;700&family=Poppins:wght@400;600&display=swap');
+
+
 :root{
     
     --color-neutral-10: #171717;
@@ -5,56 +8,53 @@
     --color-neutral-40: #f5f5f5;
 }
 
-/* COMEÇO DO RODAPÉ */
-* {
-    font-weight: bold;
+*{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    letter-spacing: 1px;
+    font-family: 'Poppins';
+  }
+  
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
-}
-main{
-    height: 100vh;
-}
+
+
+/* COMEÇO DO RODAPÉ */
 footer{
     width: 100%;
-color: var(--color-neutral-40);
+    color: var(--color-neutral-40);
 }
 #footer_content{
     background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 2rem 2.5rem;
-    
-
 }
-img{
-
+#footer_content img{
     max-width: 50px;
 }
 
 /* FIM DO RODAPÉ */
 
 /* COMEÇO DO MENU */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif
-}
-
 div #logo img{
     position:absolute;
-    max-width: 155px;
+    max-width: 60px;
     margin-top: 3px;
     margin-left: 30px;
+    border-radius: 50%;
 }
 #menu_principal{
     list-style: none;
     padding: 0;
     background-color: black;
     text-align:center;
+    height: 67px;
 }
 
 #menu_principal li {
@@ -73,15 +73,12 @@ div #logo img{
     color:black;
     background-color: white;
 }
-/* FIM DO COME */
+/* FIM DO COMEÇO */
 
 
 nav{
     width: 100%;
-    border: 0px red solid;
-   
-    
-   
+    border: 0px red solid;   
 }
 .submenu{
     background-color: #D9D9D9;
@@ -98,15 +95,10 @@ nav{
    
 }
 /* COMEÇO DOS CARDS */
-/* Estilos para o body (opcional) */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
 
+/* Estilos para o body (opcional) */
 /* Estilos para os cards */
+
 .card {
     justify-content: center;
     display: flex;
@@ -176,3 +168,199 @@ body {
     border-radius: 12px;
 }
 /* Fim do PACER */
+
+/*carroussel*/
+
+
+
+.main
+{
+    padding-top: 15px;
+    margin: 0 10%;
+}
+.main__texto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__texto_titulo
+{
+    font-size: 23px;
+}
+.main__texto_conteudo
+{
+    font-size: 17px;
+}
+
+.main__texto_titulo
+{
+    font-size: 23px;
+}
+.main__texto_conteudo
+{
+    font-size: 17px;
+}
+.main__carrosel
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    padding: 20px;
+}
+.main__carrosel_item
+{
+    width: 30%;
+    background-color: #0E6EFF;
+    height: 380px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.main__carrosel_item h3
+{
+    color: #ffffff;
+    padding: 20px;
+    font-weight: bold;
+}
+.main__carrosel_item p{
+    color: #ffffff;
+    padding: 20px;
+    text-align: justify;  
+}
+.main__texto_conteudo span
+{
+    color: #0E6EFF;
+    
+}
+.main__card
+{
+    width: 70%;
+    margin: 10px auto;
+    background-color: #0E6EFF;
+    height: 380px;
+    padding: 20px;
+    border-radius: 20px; 
+    color: #ffffff;
+}
+.card2{
+    background-color: #1055BD;
+}
+.carousel {
+    display: grid;
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  section.carousel__cards {
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    --items: 3;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+  }
+  
+  div.carousel__cards_item {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+  }
+  
+  div.carousel__cards_item:nth-of-type(1) {
+    --offset: 1;
+    background-color: #25272B;
+  }
+  
+  div.carousel__cards_item:nth-of-type(2) {
+    --offset: 2;
+    background-color: #0E6EFF;
+  }
+  
+  div.carousel__cards_item:nth-of-type(3) {
+    --offset: 3;
+    background-color: #3D495B;
+  }
+  
+  input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  input:nth-of-type(1):checked ~ section.carousel__cards {
+    --position: 1;
+  }
+  
+  input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  
+  input:nth-of-type(2):checked ~ section.carousel__cards {
+    --position: 2;
+  }
+  
+  input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+  }
+  
+  input:nth-of-type(3):checked ~ section.carousel__cards {
+    --position: 3;
+  }
+  
+  
+  .carousel__cards_item
+  {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+  }
+  .carousel__cards_item h2
+  {
+    margin: 40px auto;  
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+.container{
+    margin: 10px 0;
+}
+.choice-container{
+    background-color: #d9d9d9;
+    width: 40%;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.choice-prefix{
+    padding: 0.08rem 0.8rem;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
