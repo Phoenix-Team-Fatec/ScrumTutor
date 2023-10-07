@@ -7,7 +7,7 @@ app = Flask("__name__")
 def home():
     return render_template('index.html')
 
-@app.route('/eventos')
+@app.route('/Eventos')
 def Eventos():
     return render_template('eventos.html')
 
@@ -18,5 +18,10 @@ def pacer():
 @app.route('/artefatos')
 def artefatos():
     return render_template('artefatos.html')
+
+@app.route('/Papéis')
+def papeis():
+    return render_template('papeis.html')
+
 
 app.run(debug=True)
