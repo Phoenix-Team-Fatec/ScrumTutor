@@ -22,9 +22,16 @@ def artefatos():
 @app.route('/Papéis')
 def papeis():
     return render_template('papeis.html')
+
 @app.route('/Apendice')
 def apendice():
     return render_template('apendice.html')
+
+@app.route('/Bibliografia')
+def bibliografia():
+    return render_template('bibliografia.html')
+
+
 
 
 

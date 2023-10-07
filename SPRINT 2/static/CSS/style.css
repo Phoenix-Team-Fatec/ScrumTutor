@@ -387,3 +387,51 @@ nav{
 }
 
 /* Fim  */
+
+/* Bibliografia */
+.linha{
+    border-left: 5px solid black;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: 3px;
+    top: 10;
+}
+.links_internet{
+    width: 500px;
+    border: 0px solid red;
+    margin-bottom: 20px;
+}
+.imagem_livro{
+
+
+position: absolute;
+width: 69px;
+height: 57px;
+left: 770px;
+top: 205px;
+
+
+
+}
+.links_livro{
+    margin-left: 60%;
+    
+
+}
+.livro{
+   bottom: 500px;
+}
+   
+
+    
+
+
+
+
+
+
+
+
+
+/* Fim */
