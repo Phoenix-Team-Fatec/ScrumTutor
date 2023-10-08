@@ -33,6 +33,4 @@ def bibliografia():
 
 
 
-
-
 app.run(debug=True)
