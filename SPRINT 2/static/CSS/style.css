@@ -136,6 +136,11 @@ nav{
     color: #ffffff;
 }
 
+.card li {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
 .card img {
     width: 500px;
     max-width: 800px; /* Defina a largura máxima da imagem */
