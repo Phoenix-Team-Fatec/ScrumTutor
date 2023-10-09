@@ -468,12 +468,15 @@ p{
 
 /*começo cards artefatos */
 
+/*começo cards artefatos */
+
 .container1{
     background-color: rgb(14, 110, 255);
     width: 90%;
     border-radius: 12px;
     margin: 25px auto;
-    border-color: #000000;
+    border: 0.1rem solid black;
+    color: white;
 }
 
 .conteudo1{
@@ -487,6 +490,8 @@ p{
     width: 90%;
     border-radius: 12px;
     margin: 25px auto;
+    border: 0.1rem solid black;
+    color: white;
 }
 
 .conteudo2{
@@ -499,6 +504,8 @@ p{
     width: 90%;
     border-radius: 12px;
     margin: 25px auto;
+    border: 0.1rem solid black;
+    color: white;
 }
 
 .conteudo3{
@@ -511,6 +518,8 @@ p{
     width: 90%;
     border-radius: 12px;
     margin: 25px auto;
+    border: 0.1rem solid black;
+    color: white;
 }
 
 .conteudo4{
@@ -523,6 +532,8 @@ p{
     width: 90%;
     border-radius: 12px;
     margin: 25px auto;
+    border: 0.1rem solid black;
+    color: white;
 }
 
 .conteudo5{
@@ -536,6 +547,17 @@ h2{
     padding-top: 15px;
 }
 
+
+#perguntas_artefatos{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .container_perguntas{
-    width: 90%;
+    padding-left: 50px;
+}
+
+.choice-container{
+    width: 75%;
 }

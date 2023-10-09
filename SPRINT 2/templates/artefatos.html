@@ -3,7 +3,7 @@
 {% block header %}
 <nav>
     <div class="submenu">
-            <a href="#card1">Backlog do Protudot</a>
+            <a href="#card1">Backlog do Protudo</a>
             <a href="#card2">Backlog da Sprint</a>
             <a href="#card3">Incremento do Protudo</a>
             <a href="#card4">Gráfico burndown</a>
@@ -17,7 +17,7 @@
 
 {% block main %}
 <body>
-    <div class="container1">
+    <div class="container1" id="card1">
         <h2>Backlog do Produto</h2>
         <div class="conteudo1">
             <ul>
@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="container2">
+    <div class="container2" id="card2">
         <h2>Backlog da Sprint</h2>
         <div class="conteudo2">
             <ul>
@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <div class="container3">
+    <div class="container3" id="card3">
         <h2>Incremento do Protudo</h2>
         <div class="conteudo3">
             <ul>
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="container4">
+    <div class="container4" id="card4">
         <h2>Gráfico burndown</h2>
         <div class="conteudo4">
             <ul>
@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <div class="container5">
+    <div class="container5" id="card5">
         <h2>Definição de "concluído"</h2>
         <div class="conteudo5">
             <ul>
@@ -72,11 +72,12 @@
         </div>
     </div>
 
-    <h2>Perguntas</h2>
-    <section class="container_perguntas">
+    <h2 id="perguntas_artefatos">Perguntas</h2>
+    <div class="container_perguntas">
+    <section>
         <div class="container">
                 <p>1.Imagine que você está liderando uma equipe de desenvolvimento de software usando o Scrum para criar um novo 
-                    aplicativo de gerenciamento de tarefas. <br>Nesse contexto, qual dos seguintes artefatos Scrum seria o mais apropriado para
+                    aplicativo de gerenciamento de tarefas. Nesse contexto, qual dos seguintes artefatos Scrum seria o mais apropriado para
                     documentar as funcionalidades que a equipe planeja desenvolver?</p>
                 <div class="choice-container">
                     <span class="choice-prefix">A</span>
@@ -103,7 +104,7 @@
     <section>
         <div class="container">
                 <p>2.Durante uma Reunião de Planejamento da Sprint, a equipe de desenvolvimento está discutindo a capacidade de entrega 
-                    para a próxima Sprint. Qual artefato Scrum <br> é utilizado como referência para entender a capacidade da equipe e ajudar 
+                    para a próxima Sprint. Qual artefato Scrum é utilizado como referência para entender a capacidade da equipe e ajudar 
                     na seleção de itens para o Sprint Backlog?</p>
                 <div class="choice-container">
                     <span class="choice-prefix">A</span>
@@ -130,7 +131,7 @@
     <section>
         <div class="container">
                 <p>3.Durante uma Sprint, a equipe de desenvolvimento está trabalhando no Sprint Backlog. Qual dos seguintes artefatos
-                    Scrum é usado para rastrear o progresso <br> da Sprint em relação ao trabalho planejado e é representado por um gráfico 
+                    Scrum é usado para rastrear o progresso da Sprint em relação ao trabalho planejado e é representado por um gráfico 
                     que mostra a tendência da conclusão das tarefas ao longo do tempo?</p>
                 <div class="choice-container">
                     <span class="choice-prefix">A</span>
@@ -138,7 +139,7 @@
                 </div>
                 <div class="choice-container">
                     <span class="choice-prefix">B</span>
-                    <span class="choice-text">Burndown Chart/span>
+                    <span class="choice-text">Burndown Chart</span>
                 </div>
                 <div class="choice-container">
                     <span class="choice-prefix">C</span>
@@ -178,6 +179,7 @@
                     </div>
             </div>
             </section>
+        </div>
     
 </body>
 {% endblock %}
