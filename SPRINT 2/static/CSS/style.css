@@ -452,3 +452,16 @@ p{
 }
 /* Fim das Perguntas */
 
+
+/*começo cards artefatos */
+
+.container1{
+    background-color: #0E6EFF;
+    width: 70%;
+    border-radius: 12px;
+}
+
+.conteudo1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
