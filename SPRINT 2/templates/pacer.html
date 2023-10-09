@@ -1,5 +1,93 @@
 {% extends "base.html" %}
 {% block main %}
+
+<div class="card" id="card1">
+    <div class="card-content">
+        <h2>O que é a avaliação PACER?</h2>
+        <p>Texto médio a grande do Card 1. Você pode adicionar mais texto aqui.</p>
+        <li>
+            <p>
+                Essa avaliação mede os seguintes pontos dos integrantes da equipe: Proatividade, Autonomia, Colaboração e Entrega de resultados. Todos que fazem parte da equipe estão sujeitos a avaliação. Esse é um metodo pra medir o desempenho dos individuos, normalmente realizado ao final de cada sprint. 
+            </p>
+        </li>
+    </div>
+    <img src="img/facilitação.jpg" alt="Imagem 1">
+</div>
+<div class="card" id="card2">
+    <div class="card-content">
+        <h2>PROATIVIDADE</h2>
+        <br>
+        <li>
+            <p>
+                0 - REATIVO: Não tem iniciativa alguma, fica esperando alguém dizer o que fazer ou que o problema apareça. Não observa os próximos passos do planejamento.
+                
+                1 - DESFOCADO: Pega muitas atividades gerais e não inicia nenhuma devidamente. Mesmo nas tarefas mais simples tem respostas lentas.
+                
+                2 - ATIVO: Tenta pegas as tarefas mais difíceis sempre que disponíveis. Fundamental para alcançar a meta da sprint. Pode se enroscar em pequenos problemas não previstos.
+                
+                3 - PROATIVO: Foco nas tarefas mais valiosas. Além da iniciativa, evita antecipadamente problemas. Altíssima produtividade, foco em uma tarefa por vez e sempre bem feita.
+            </p>
+        </li>
+    </div>
+    <img src="img/facilitação.jpg" alt="Imagem 1">
+</div>
+<div class="card" id="card3">
+    <div class="card-content">
+        <h2>AUTONOMIA</h2>
+        <br>
+        <li>
+            <p>
+                0 -DIRIGIDO: Não consegue / não quer iniciar suas atividades. Sempre precisa de alguém ao lado para progredir nas atividades.
+                
+                1 - GERIDO: Demora demais para iniciar as atividades. Demora para perceber que precisa de ajuda. Só avança quando alguém lhe diz exatamente o que deve ser feito.
+                
+                2 - TREINADO: Recorre a experiências descritas por alguém antes de tomar as atitudes. Repete passos buscando os mesmos resultados. Pouca capacidade criativa.
+                
+                3 - AUTOGESTÃO: Sempre assume as suas responsabilidades com proatividade. Suas estimativas de prazo são precisas. Capacidade analítica / crítica dos desafios que se apresentam.
+            </p>
+        </li>
+    </div>
+    <img src="img/facilitação.jpg" alt="Imagem 1">
+</div>
+<div class="card" id="card4">
+    <div class="card-content">
+        <h2>COLABORAÇÃO</h2>
+        <br>
+        <li>
+            <p>
+                0 -AUSENTE: Não aparece nas reuniões. Não se interessa pelo projeto.
+                
+                1 - COOPERATIVO: Preocupa-se com a organização, contudo não cumpre seu papel. Provê informação, mas não faz uma comunicação efetiva. Toma decisões individualmente, mas não em equipe.
+                
+                2 - COORDENADO: Compartilha as informações. Segue bem os papéis definidos. Comunica-se com frequência. Compartilha as decisões tomadas.
+                
+                3 - COLABORATIVO: A equipe age como se fosse um único organismo. A comunicação é prioridade e sempre remete confiança para todos. As decisões chegam em consenso. Compartilha ideias e recursos.
+            </p>
+        </li>
+        
+    </div>
+    <img src="img/facilitação.jpg" alt="Imagem 1">
+</div>
+<div class="card" id="card5">
+    <div class="card-content">
+        <h2>ENTREGA DE RESULTADOS</h2>
+        <br>
+        <li>
+            <p>
+                0 - NÃO HÁ ENTREGAS: Não ocorre entrega de sucesso. Existem pontos que aparentemente não serão resolvíveis no tempo restante.
+                
+                1 - ENTREGAS DUVIDOSAS: Existem dúvidas se a entrega não arrisca o projeto em algumas áreas. Ações urgentes precisam ser tomadas para garantir a entrega.
+                
+                2 - ENTREGAS CONFIÁVEIS: O sucesso é provável. Contudo é necessário uma atenção constante para garantir que riscos não ameacem o projeto.
+                
+                3 - ENTREGAS PERFEITAS: Entregas completas, sem erros, bem documentadas com qualidade.
+            </p>
+        </li>
+    </div>
+    <img src="img/facilitação.jpg" alt="Imagem 1">
+</div>
+
+<!--Início Avaliação PACER-->
     <h1>Avaliação PACER</h1>
 
                 <h2>Product Owner:</h2>
@@ -223,15 +311,16 @@
                                     <input type="radio" id="nota3"ve name="limite" value="3"> 
                                 </div>
                     </div>
-                    <div class="pacer_card">
-                        <div class="pacer_card__ngc"> 
-                            <h3>Colaboração:</h3> 
-                        </div>
-                                <div class="pacer_check">
-                                    <input type="radio" id="nota0"ve name="limite" value="0">
-                                    <input type="radio" id="nota1"ve name="limite" value="1">
-                                    <input type="radio" id="nota2"ve name="limite" value="2">
-                                    <input type="radio" id="nota3"ve name="limite" value="3"> 
+                    <div class="card">
+                        <div class="card__ngc"> 
+                            <h3>Entrega de resultados:</h3> 
+                            </div>
+                                <div class="check">
+                                    <input type="radio" id="nota0"ve name="limite3" value="0">
+                                    <input type="radio" id="nota1"ve name="limite3" value="1">
+                                    <input type="radio" id="nota2"ve name="limite3" value="2">
+                                    <input type="radio" id="nota3"ve name="limite3" value="3"> 
                                 </div>
                     </div>
+                </div>
 {% endblock %}
