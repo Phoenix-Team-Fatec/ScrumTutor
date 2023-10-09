@@ -473,12 +473,14 @@ p{
     width: 90%;
     border-radius: 12px;
     margin: 25px auto;
+    border-color: #000000;
 }
 
 .conteudo1{
     font-size: 20px;
     padding-bottom: 20px;
 }
+
 
 .container2{
     background-color: rgb(14, 110, 255);
@@ -532,4 +534,8 @@ h2{
     padding-left: 25px;
     margin: 20px;
     padding-top: 15px;
+}
+
+.container_perguntas{
+    width: 90%;
 }
