@@ -3,7 +3,7 @@
 
 :root{
     
-    --color-neutral-10: #171717;
+    --color-neutral-10: black;
    
     --color-neutral-40: #f5f5f5;
 }
@@ -34,9 +34,14 @@ footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 2rem 2.5rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 #footer_content img{
     max-width: 50px;
+    border-radius: 50%;
 }
 
 /* FIM DO RODAPÉ */
@@ -141,6 +146,7 @@ nav{
 }
 
 /* FIM DOS CARDS  */
+
 /* Inicio do PACER */
 .pacer_card{
     margin-right: 5%;
@@ -167,6 +173,7 @@ nav{
     background-color: lightgray ;
     border-radius: 12px;
 }
+
 /* Fim do PACER */
 
 /*carroussel*/
@@ -428,27 +435,28 @@ top: 205px;
 
 /* Inicio das Perguntas */
 .container{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Poppins;
 }
 .choice-container{
     background-color: #d9d9d9;
     width: 40%;
     font-size: 1.2rem;
-    border-radius: 12px;
+    border-radius: 6px;
     margin-bottom: 1rem;
-    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    margin: 25px 0;
 }
 
 .choice-prefix{
     padding: 0.08rem 0.8rem;
     background-color: black;
-    border-radius: 12px;
+    border-radius: 6px;
     color: white;
     font-weight: bold;
+    height: 26px;
 }
 
 p{
-    font-size: 16px;
+    font-size: 17px;
 }
 /* Fim das Perguntas */
 
