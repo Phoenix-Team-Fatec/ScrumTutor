@@ -461,12 +461,67 @@ p{
 /*começo cards artefatos */
 
 .container1{
-    background-color: #0E6EFF;
-    width: 70%;
+    background-color: rgb(14, 110, 255);
+    width: 90%;
     border-radius: 12px;
+    margin: 25px auto;
 }
 
 .conteudo1{
     font-size: 20px;
     padding-bottom: 20px;
+}
+
+.container2{
+    background-color: rgb(14, 110, 255);
+    width: 90%;
+    border-radius: 12px;
+    margin: 25px auto;
+}
+
+.conteudo2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.container3{
+    background-color: rgb(14, 110, 255);
+    width: 90%;
+    border-radius: 12px;
+    margin: 25px auto;
+}
+
+.conteudo3{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.container4{
+    background-color: rgb(14, 110, 255);
+    width: 90%;
+    border-radius: 12px;
+    margin: 25px auto;
+}
+
+.conteudo4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.container5{
+    background-color: rgb(14, 110, 255);
+    width: 90%;
+    border-radius: 12px;
+    margin: 25px auto;
+}
+
+.conteudo5{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    padding-left: 25px;
+    margin: 20px;
+    padding-top: 15px;
 }
