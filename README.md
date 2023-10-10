@@ -27,6 +27,8 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 
 ## MVP
 <span id="mvp">
+    
+![SCRUM TUTOR APRESENTACAO](https://github.com/Phoenix-Team-Fatec/API/assets/89617179/1ebfefe0-cca3-49ad-9971-9e91e96cd868)
 
  O Produto Mínimo Viável – ou Minimum Viable Product (MVP) – é a versão simplificada de um produto final de uma startup. O empreendedor vai oferecer o mínimo de funcionalidades com o objetivo de testar o produto ou serviço no mercado.<br><br>
  
@@ -51,24 +53,25 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 
 ### Backlog do Produto
 
-| ID     | Sprint |  US   | Item |  Estimativa de tempo   | Status | Prioridade | 
-| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| #01    | 1 |EU, enquanto cliente, quero um protótipo navegável para ter uma visão geral do Website| Wireframe | 10h | :white_check_mark: | 70 |
-| #02    | 1 | EU, enquanto cliente, quero visualisar os eventos, os papéis, os artefatos, apêndices e a bibliografia em páginas distintas| Wireframe | 6h | :white_check_mark: | 40 |
-| #03    | 1 |EU, enquanto cliente, quero que haja perguntas com contextos práticos do cotidiano em cada página| Wireframe | 5h | :white_check_mark: | 75 |
-| #04    | 1 | EU, enquanto cliente, quero avaliar minha equipe Scrum através do web site | Wireframe | 4h | :white_check_mark: | 65 |
-| #05    | 1 | EU, enquanto cliente, quero o backlog do produto para ter uma visão geral do prouduto presente no GitHub | Backlog | 3h | :white_check_mark: | 50 |
-| #06    | 2 |Eu, enquanto cliente, quero as páginas  7 páginas web, sendo elas Home, Artefatos, Eventos, Papéis, Bibliografia, apêndice e avaliação. | Website | 20h | :no_entry:|100 |
-| #07    | 2 |Eu, enquanto cliente, quero facilitar a navegação com um menu funcional que direciona para as demais páginas| Website | 3h | :no_entry:|85 |
-| #08    | 2 |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha conceitos teóricos e práticos| Website | 2h | :no_entry:|90 |
-| #09    | 2 |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha perguntas para aplicar o contéudo| Website | 2h |:no_entry:|55| 
-| #10    | 2 |Eu, enquanto cliente, quero a explicação do método de avaliação que será usado (PACER)| Website | 2h |:no_entry:| 60 |
-| #11    | 3 |Eu, enquanto cliente , quero avaliar a equipe com os seguintes requisitos: proatividade, autonomia, colaboração e entrega de resultados.| Website | 1h |:no_entry:| 95 |
-| #12    | 3 |Eu, enquanto cliente , quero visualizar as notas individuais e gerais da equipe  no site da avaliação| Website | 5h |:no_entry:|80 |
-| #13    | 3 | Eu, enquanto cliente, quero que este site esteja hospedado na internet, para acessá-lo de qualquer lugar| Website | 5h |:no_entry:|85 |
-| #14    | 3 | Eu, enquanto cliente , quero que as perguntas sejam feitas de maneira dinâmica e contenham justificativas| Website | 5h |:no_entry:| 40 |
-| #15    | 4 | Eu, enquanto cliente, quero que a página contenha uma identidade visual | Website | 8h |:no_entry:| 35 |
-| #16    | 4 | Eu, enquanto cliente, quero que a navegação e usabilidade seja simples e intuitiva| Website | 8h |:no_entry:| 30 |
+| Rank     | Prioridade |  US   | Item |  Estimativa | Sprint | 
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| #01    | Alta | EU, enquanto cliente, quero visualisar os eventos, os papéis, os artefatos, apêndices e a bibliografia em páginas distintas | Wireframe | 6 |  1  |
+| #02    | Alta | EU, enquanto cliente, quero avaliar minha equipe Scrum através do web site | Wireframe | 4 |  1  |
+| #03    | Alta | EU, enquanto cliente, quero o backlog do produto para ter uma visão geral do prouduto presente no GitHub | Backlog | 3 |  1  |
+| #04    | Média |EU, enquanto cliente, quero um protótipo navegável para ter uma visão geral do Website | Wireframe | 10 |  1  | 
+| #05    | Média |EU, enquanto cliente, quero que haja perguntas com contextos práticos do cotidiano em cada página | Wireframe | 5 |  1  |
+| #06    | Alta |Eu, enquanto cliente, quero as páginas  7 páginas web, sendo elas Home, Artefatos, Eventos, Papéis, Bibliografia, apêndice e avaliação. | Website | 20 | 2 |
+| #07    | Alta |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha conceitos teóricos e práticos| Website | 2 |2 |
+| #08    | Média |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha perguntas para aplicar o contéudo| Website | 2 |2| 
+| #09    | Baixa |Eu, enquanto cliente, quero facilitar a navegação com um menu funcional que direciona para as demais páginas| Website | 3 | 2 |
+| #10    | Baixa |Eu, enquanto cliente, quero a explicação do método de avaliação que será usado (PACER)| Website | 2 | 2 |
+| #11    | Alta |Eu, enquanto cliente , quero avaliar a equipe com os seguintes requisitos: proatividade, autonomia, colaboração e entrega de resultados.| Website | 1 | 3 |
+| #12    | Média |Eu, enquanto cliente , quero visualizar as notas individuais e gerais da equipe  no site da avaliação| Website | 5 | 3 |
+| #13    | Média | Eu, enquanto cliente, quero que este site esteja hospedado na internet, para acessá-lo de qualquer lugar| Website | 5 | 3 |
+| #14    | Baixa | Eu, enquanto cliente , quero que as perguntas sejam feitas de maneira dinâmica e contenham justificativas| Website | 5 | 3 |
+| #15    | Alta | Eu, enquanto cliente, quero que a navegação e usabilidade seja simples e intuitiva| Website | 8 | 4 |
+| #16    | Média | Eu, enquanto cliente, quero que a página contenha uma identidade visual | Website | 8 | 4 |
+
 
 
 
@@ -108,17 +111,23 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 
 | ITEM   | STATUS |
 | :----: | :----: |
-|ESTUDAR *Rotas e views com Flask* | :no_entry: |
-|MENU | :no_entry: |
-|SubMenu | :no_entry: |
-|Cards |:no_entry:|
-|Perguntas | :no_entry: |
-|Pacer | :no_entry: |
-|Rodapé |:no_entry:|
-|Carrosel | :no_entry: |
-|Estudar GitHub commit| :no_entry: |
-|Flask | :no_entry: |
-|Adicionar o conteúdo às páginas | :no_entry: |
+|ESTUDAR *Rotas e views com Flask* | :white_check_mark: |
+|MENU | :white_check_mark: |
+|SubMenu | :white_check_mark: |
+|Cards |:white_check_mark:|
+|Perguntas | :white_check_mark: |
+|Pacer | :white_check_mark: |
+|Rodapé |:white_check_mark:|
+|Carrosel | :white_check_mark: |
+|Estudar GitHub commit| :white_check_mark: |
+|Flask Home| :white_check_mark: |
+|Flask Artefatos| :white_check_mark: |
+|Flask Eventos| :white_check_mark: |
+|Flask Papeis| :white_check_mark: |
+|Flask Pacer| :white_check_mark: |
+|Flask Apêndice| :white_check_mark: |
+|Flask Bibliografia| :white_check_mark: |
+|Adicionar o conteúdo às páginas | :white_check_mark: |
 
 
 ### Sprint 3 - Conclusão das Perguntas e Avaliação
