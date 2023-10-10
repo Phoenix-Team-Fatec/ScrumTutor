@@ -482,6 +482,11 @@ p{
     margin: 25px auto;
     border: 0.1rem solid black;
     color: white;
+    display: flex;
+}
+
+.container1:hover {
+    transform: translateY(-8px); /* Efeito de elevação ao passar o mouse */
 }
 
 .conteudo1{
@@ -497,6 +502,11 @@ p{
     margin: 25px auto;
     border: 0.1rem solid black;
     color: white;
+    display: flex;
+}
+
+.container2:hover {
+    transform: translateY(-8px); /* Efeito de elevação ao passar o mouse */
 }
 
 .conteudo2{
@@ -511,6 +521,11 @@ p{
     margin: 25px auto;
     border: 0.1rem solid black;
     color: white;
+    display: flex;
+}
+
+.container3:hover {
+    transform: translateY(-8px); /* Efeito de elevação ao passar o mouse */
 }
 
 .conteudo3{
@@ -525,6 +540,11 @@ p{
     margin: 25px auto;
     border: 0.1rem solid black;
     color: white;
+    display: flex;
+}
+
+.container4:hover {
+    transform: translateY(-8px); /* Efeito de elevação ao passar o mouse */
 }
 
 .conteudo4{
@@ -539,6 +559,11 @@ p{
     margin: 25px auto;
     border: 0.1rem solid black;
     color: white;
+    display: flex;
+}
+
+.container5:hover {
+    transform: translateY(-8px); /* Efeito de elevação ao passar o mouse */
 }
 
 .conteudo5{
