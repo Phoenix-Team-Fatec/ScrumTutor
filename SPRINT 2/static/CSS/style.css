@@ -175,10 +175,10 @@ nav{
 }
 .pacer_card__ngc{
     display: flex;
-    
 }
 .pacer_card_geral{
     padding: 2%;
+    margin-bottom: 10%;
     background-color: lightgray ;
     border-radius: 12px;
 }
@@ -570,12 +570,12 @@ p{
     padding-bottom: 20px;
 }
 
-h2{
+/*h2{
     padding-left: 25px;
     margin: 20px;
     padding-top: 15px;
 }
-
+*/
 
 #perguntas_artefatos{
     text-align: center;
