@@ -437,6 +437,7 @@ top: 85px;
 }
 .imagem_web{
     padding-right: 110%;
+    position: absolute;
 }
 .texto_livro{
     padding-left: 15%;
