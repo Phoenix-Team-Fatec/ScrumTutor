@@ -410,7 +410,7 @@ nav{
 /* Bibliografia */
 .linha{
     border-left: 5px solid black;
-    height: 600px;
+    height: 1200px;
     position: absolute;
     left: 50%;
     margin-left: 3px;
@@ -420,6 +420,8 @@ nav{
     width: 500px;
     border: 0px solid red;
     margin-bottom: 20px;
+    text-align: justify;
+    
 }
 .imagem_livro{
 
@@ -428,19 +430,27 @@ position: absolute;
 width: 69px;
 height: 57px;
 left: 770px;
-top: 205px;
+top: 85px;
 
 
 
 }
-.links_livro{
-    margin-left: 60%;
+.imagem_web{
+    padding-right: 110%;
+}
+.texto_livro{
+    padding-left: 15%;
+    padding-top: 10%;
+    
+}
+.tudo_bibliografia{
+    display: flex;
+    text-align: right;
+}
+    
+    
     
 
-}
-.livro{
-   bottom: 500px;
-}
    
 /* Fim */
 
@@ -593,3 +603,4 @@ p{
 .choice-container{
     width: 75%;
 }
+/* Fim dos Artefatos  */
