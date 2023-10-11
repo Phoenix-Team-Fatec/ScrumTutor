@@ -155,9 +155,11 @@ nav{
 /* FIM DOS CARDS  */
 
 /* Inicio do PACER */
-
+.h1_pacer{
+    margin-left: 4%;
+}
 .h2_pacer{
-    margin-left: 2.5%;
+    margin-left: 0%;
     border-radius: 12px;
 }
 .pacer_card{
@@ -178,6 +180,7 @@ nav{
 }
 .pacer_card__ngc{
     display: flex;
+    margin-left: 4%;
 }
 .pacer_card_geral{
     padding: 2%;
@@ -185,12 +188,9 @@ nav{
     background-color: lightgray ;
     border-radius: 12px;
 }
-
 /* Fim do PACER */
 
 /*carroussel*/
-
-
 
 .main
 {
