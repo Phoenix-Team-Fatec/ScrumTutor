@@ -53,17 +53,14 @@ div #logo img{
     margin-top: 15px;
     margin-left: 8%;
     height: 40px;
-    border: 0px solid red;
-    
+    border: 0px solid red;      
 }
 #menu_principal{
     list-style: none;
     padding: 0;
     background-color: black;
     text-align:center;
-  
 }
-
 #menu_principal li {
     display: inline
 }
@@ -79,7 +76,9 @@ div #logo img{
 #menu_principal li a:hover {
     color:black;
     background-color: white;
+    transition: .6s;
 }
+
 /* FIM DO COMEÇO */
 
 
@@ -98,7 +97,9 @@ nav{
 }
 .submenu a{
     color: black;
-    text-decoration: none;
+    text-decoration:none;
+    font-weight: bold;
+
    
 }
 /* COMEÇO DOS CARDS */
@@ -161,9 +162,11 @@ nav{
 /* FIM DOS CARDS  */
 
 /* Inicio do PACER */
-
+.h1_pacer{
+    margin-left: 4%;
+}
 .h2_pacer{
-    margin-left: 2.5%;
+    margin-left: 0%;
     border-radius: 12px;
 }
 .pacer_card{
@@ -184,6 +187,7 @@ nav{
 }
 .pacer_card__ngc{
     display: flex;
+    margin-left: 4%;
 }
 .pacer_card_geral{
     padding: 2%;
@@ -191,12 +195,9 @@ nav{
     background-color: lightgray ;
     border-radius: 12px;
 }
-
 /* Fim do PACER */
 
 /*carroussel*/
-
-
 
 .main
 {
@@ -590,12 +591,6 @@ p{
     padding-bottom: 20px;
 }
 
-h2{
-    padding-left: 25px;
-    margin: 20px;
-    padding-top: 15px;
-}
-
 #perguntas_artefatos{
     text-align: center;
     font-size: 40px;
@@ -610,3 +605,33 @@ h2{
     width: 75%;
 }
 /* Fim dos Artefatos  */
+
+#h2_1{
+    padding-left: 25px;
+    margin: 20px;
+    padding-top: 15px;
+}
+
+#h2_2{
+    padding-left: 25px;
+    margin: 20px;
+    padding-top: 15px;
+}
+
+#h2_3{
+    padding-left: 25px;
+    margin: 20px;
+    padding-top: 15px;
+}
+
+#h2_4{
+    padding-left: 25px;
+    margin: 20px;
+    padding-top: 15px;
+}
+
+#h2_5{
+    padding-left: 25px;
+    margin: 20px;
+    padding-top: 15px;
+}
