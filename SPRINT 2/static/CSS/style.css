@@ -54,6 +54,7 @@ div #logo img{
     margin-left: 8%;
     height: 40px;
     border: 0px solid red;
+   
     
 }
 #menu_principal{
@@ -98,7 +99,9 @@ nav{
 }
 .submenu a{
     color: black;
-    text-decoration: none;
+    text-decoration:none;
+    font-weight: bold;
+
    
 }
 /* COMEÇO DOS CARDS */
@@ -419,7 +422,7 @@ nav{
 .links_internet{
     width: 500px;
     border: 0px solid red;
-    margin-bottom: 20px;
+    padding-top: 15%;
     text-align: justify;
     
 }
@@ -437,6 +440,7 @@ top: 85px;
 }
 .imagem_web{
     padding-right: 110%;
+    position: absolute;
 }
 .texto_livro{
     padding-left: 15%;
