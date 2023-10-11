@@ -53,18 +53,14 @@ div #logo img{
     margin-top: 15px;
     margin-left: 8%;
     height: 40px;
-    border: 0px solid red;
-   
-    
+    border: 0px solid red;      
 }
 #menu_principal{
     list-style: none;
     padding: 0;
     background-color: black;
     text-align:center;
-  
 }
-
 #menu_principal li {
     display: inline
 }
@@ -80,7 +76,9 @@ div #logo img{
 #menu_principal li a:hover {
     color:black;
     background-color: white;
+    transition: .6s;
 }
+
 /* FIM DO COMEÇO */
 
 
