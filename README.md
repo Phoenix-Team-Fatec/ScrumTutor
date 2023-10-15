@@ -39,6 +39,8 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 
  ### MVP SPRINT 2
 
+[SPRINT 2](https://youtu.be/ZkaLRpCnixU)
+
  ### MVP SPRINT 3
 
  ### MVP SPRINT 4
