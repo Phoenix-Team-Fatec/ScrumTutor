@@ -28,17 +28,19 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 ## MVP
 <span id="mvp">
     
-![SCRUM TUTOR APRESENTACAO](https://github.com/Phoenix-Team-Fatec/API/assets/89617179/1ebfefe0-cca3-49ad-9971-9e91e96cd868)
+![PHOENIX](https://github.com/Phoenix-Team-Fatec/API/assets/89617179/62391622-ee54-47aa-8cb8-60eb4835fff4)
+
 
  O Produto Mínimo Viável – ou Minimum Viable Product (MVP) – é a versão simplificada de um produto final de uma startup. O empreendedor vai oferecer o mínimo de funcionalidades com o objetivo de testar o produto ou serviço no mercado.<br><br>
  
  ### MVP SPRINT 1
 
 [Vídeo com o MVP da Spint 1](https://youtu.be/1EK8WxrTM-E)<br>
-[CANVA - PITCH](https://www.canva.com/design/DAFvKhO-mTE/digvuNrZ7KE9Z1twirSN4w/edit?utm_content=DAFvKhO-mTE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)<br>
-[YOUTUBE - PITCH](https://www.youtube.com/watch?v=mV9nNaZGDA8&ab_channel=PHOENIXTEAM)
+[SPRINT 1](https://www.youtube.com/watch?v=mV9nNaZGDA8&ab_channel=PHOENIXTEAM)
 
  ### MVP SPRINT 2
+
+[SPRINT 2](https://youtu.be/ZkaLRpCnixU)
 
  ### MVP SPRINT 3
 
