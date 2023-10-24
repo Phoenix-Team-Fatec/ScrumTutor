@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask("__name__")
 
@@ -11,7 +11,7 @@ def home():
 def Eventos():
     return render_template('eventos.html')
 
-@app.route('/Pacer')
+@app.route('/Pacer', methods = ['POST', 'GET'])
 def pacer():
     return render_template('pacer.html')
 
