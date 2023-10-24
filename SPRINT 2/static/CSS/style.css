@@ -691,3 +691,30 @@ p{
     margin: 20px;
     padding-top: 15px;
 }
+
+.question {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 75%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: #D9D9D9;
+  margin-top: 10px;
+}
+
+.justificativa_pergunta{
+    font-weight: bold;
+}
