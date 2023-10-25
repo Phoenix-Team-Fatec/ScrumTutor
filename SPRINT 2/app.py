@@ -1,4 +1,9 @@
 from flask import Flask, render_template, request, redirect
+from flask_mail import Mail
+from flask_mail import Message
+import os
+
+
 
 class avaliacao:
     def __init__(self, papel, proatividade, autonomia, colaboracao, entrega):
@@ -11,6 +16,20 @@ class avaliacao:
 app = Flask("__name__")
 
 app.secret_key = 'phoenix'
+
+app.config['SECRET_KEY'] = "tsfyguaistyatuis589566875623568956"
+
+app.config['MAIL_SERVER'] = "smtp.googlemail.com"
+
+app.config['MAIL_PORT'] = 587
+
+app.config['MAIL_USE_TLS'] = True
+
+app.config['MAIL_USERNAME'] = "phoenix.team.sjc@gmail.com"
+
+app.config['MAIL_PASSWORD'] = "tera dxis ktfz sria"
+
+mail = Mail(app)
 
 notas = []
 
@@ -38,6 +57,12 @@ def criar():
     for i in range(len(papel)):
         avaliado = avaliacao(papel[i], proatividade[i], autonomia[i], colaboracao[i], entrega[i])
         notas.append(avaliado)
+
+    msg = Message("Avaliação", sender="noreply@app.com", recipients=["phoenix.team.sjc@gmail.com"])
+    msg.HTMLBody = f''' <h1> TESTE </h1>'''
+    msg.html = render_template('pacer.html')
+    mail.send(msg)    
+
     return redirect('/Pacer')
 
 
