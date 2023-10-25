@@ -1,23 +1,24 @@
+
 {% extends "base.html" %}
 {% block main %}
 
-<div class="card" id="card1">
+<div class="card_pacer" id="card1">
     <div class="card-content">
         <h2><b>O que é a avaliação PACER?</b></h2>
         <br>
-        <li>
+        
             
                 Essa avaliação mede os seguintes pontos dos integrantes da equipe: Proatividade, Autonomia, Colaboração e Entrega de resultados. Todos que fazem parte da equipe estão sujeitos a avaliação. Esse é um metodo pra medir o desempenho dos individuos, normalmente realizado ao final de cada sprint. 
             
-        </li>
+        
     </div>
 </div>
-
-<div class="card" id="card2">
+<div class="card_dois">
+<div class="card_pacer" id="card2">
     <div class="card-content">
         <h2><b>PROATIVIDADE</b></h2>
         <br>
-        <li>
+        
             <p>
                 0 - REATIVO: Não tem iniciativa alguma, fica esperando alguém dizer o que fazer ou que o problema apareça. Não observa os próximos passos do planejamento.
                 
@@ -27,15 +28,15 @@
                 
                 3 - PROATIVO: Foco nas tarefas mais valiosas. Além da iniciativa, evita antecipadamente problemas. Altíssima produtividade, foco em uma tarefa por vez e sempre bem feita.
             </p>
-        </li>
+        
     </div>
 </div>
 
-<div class="card" id="card3">
+<div class="card_pacer" id="card3">
     <div class="card-content">
         <h2><b>AUTONOMIA</b></h2>
         <br>
-        <li>
+      
             <p>
                 0 -DIRIGIDO: Não consegue / não quer iniciar suas atividades. Sempre precisa de alguém ao lado para progredir nas atividades.
                 
@@ -45,15 +46,16 @@
                 
                 3 - AUTOGESTÃO: Sempre assume as suas responsabilidades com proatividade. Suas estimativas de prazo são precisas. Capacidade analítica / crítica dos desafios que se apresentam.
             </p>
-        </li>
+       
     </div>
 </div>
-
-<div class="card" id="card4">
+</div>
+<div class="card_restante">
+<div class="card_pacer" id="card4">
     <div class="card-content">
         <h2><b>COLABORAÇÃO</b></h2>
         <br>
-        <li>
+        
             <p>
                 0 -AUSENTE: Não aparece nas reuniões. Não se interessa pelo projeto.
                 
@@ -63,15 +65,15 @@
                 
                 3 - COLABORATIVO: A equipe age como se fosse um único organismo. A comunicação é prioridade e sempre remete confiança para todos. As decisões chegam em consenso. Compartilha ideias e recursos.
             </p>
-        </li>
+       
     </div>
 </div>
 
-<div class="card" id="card5">
+<div class="card_pacer" id="card5">
     <div class="card-content">
         <h2><b>ENTREGA DE RESULTADOS</b></h2>
         <br>
-        <li>
+       
             <p>
                 0 - NÃO HÁ ENTREGAS: Não ocorre entrega de sucesso. Existem pontos que aparentemente não serão resolvíveis no tempo restante.
                 
@@ -81,13 +83,13 @@
                 
                 3 - ENTREGAS PERFEITAS: Entregas completas, sem erros, bem documentadas com qualidade.
             </p>
-        </li>
+        
     </div>
 </div>
-
+</div>
 <!--Início Avaliação PACER-->
     <h1 class="h1_pacer">Avaliação PACER</h1>
-            <form method="post">
+            <form method="post" action="/Criar">
                 <div class="pacer_card_geral">
                     <div class="pacer_card">
                         <h2 class="h2_pacer">Product Owner:</h2>
@@ -249,6 +251,30 @@
                                 </div>
                     </div>
                 </div>
-                <button> Enviar </button>
+                <button type="submit">Salvar</button>
             </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>papel</th>
+                        <th>proatividade</th>
+                        <th>autonomia</th>
+                        <th>colaboracao</th>
+                        <th>entrega</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in listas %}     
+                    <tr>
+                        <td>{{ item.papel }}</td>
+                        <td>{{ item.proatividade }}</td>
+                        <td>{{ item.autonomia }}</td>
+                        <td>{{ item.colaboracao }}</td>
+                        <td>{{ item.entrega }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
 {% endblock %}
+
