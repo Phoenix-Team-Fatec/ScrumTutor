@@ -29,6 +29,7 @@ def pacer():
 
 @app.route('/Criar', methods=['POST',])
 def criar():
+
     papel = ['P.O', 'S.M','D.T']
     proatividade = [request.form['proat_po'],request.form['proat_sm'],request.form['proat_dt'], ]
     autonomia = [request.form['aut_po'],request.form['aut_sm'],request.form['aut_dt']]
