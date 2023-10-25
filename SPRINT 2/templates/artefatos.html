@@ -18,7 +18,7 @@
 <body>
   <div class="card" id="card1">
     <div class="card-content">
-        <h2>Backlog do Protudo</h2>
+        <h2>Backlog do Produto</h2>
         
         <li> 
           É uma lista de recursos novos, aprimoramento, tarefas ou requisitos de trabalho
@@ -54,7 +54,7 @@
 
   <div class="card" id="card3">
     <div class="card-content">
-        <h2>Incremento do Protudo</h2>
+        <h2>Incremento do Produto</h2>
         
         <li> 
           Novas funcionalidades e melhorias no que foi produzido anteriormente;
@@ -109,32 +109,31 @@
     <h2 id="perguntas_artefatos">Perguntas</h2>
     <div class="container_perguntas">
     <section>
-        <div class="container">
-                <p>1.Imagine que você está liderando uma equipe de desenvolvimento de software usando o Scrum para criar um novo 
-                    aplicativo de gerenciamento de tarefas. Nesse contexto, qual dos seguintes artefatos Scrum seria o mais apropriado para
-                    documentar as funcionalidades que a equipe planeja desenvolver?</p>
-                <div class="choice-container">
-                    <span class="choice-prefix">A</span>
-                    <span class="choice-text">Backlog do Protudo</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">B</span>
-                    <span class="choice-text">Backlog da Sprint</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">C</span>
-                    <span class="choice-text">Incremento</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">D</span>
-                    <span class="choice-text">Burndown Chart</span>
-                </div>
-                <div>
-                    <strong>Justificativa:</strong>
-                    <p>Alternativa correta : A. O Backlog do Produto se trata de uma lista priorizada, com funcionalidades e requisitos que deverão ser entregues ao longo das Sprints.</p>
-                    <p></p>
-                </div>
+      <div class="container">
+        <div class="question" id="question">1.Imagine que você está liderando uma equipe de desenvolvimento de software usando o Scrum para criar um novo 
+          aplicativo de gerenciamento de tarefas. Nesse contexto, qual dos seguintes artefatos Scrum seria o mais apropriado para
+          documentar as funcionalidades que a equipe planeja desenvolver?</div>
+        <div class="options">
+          <div class="option">
+            <button class="button" onclick="respostaIncorreta(this)">Backlog da Sprint</button>
+          </div>
+          <div class="option">
+            <button class="button" onclick="resposCorreta(this)">Backlog do Produto</button>
+          </div>
+          <div class="option">
+            <button class="button" onclick="respostaIncorreta(this)">Definição de "concluído"</button>
+          </div>
+          <div class="option">
+            <button class="button" onclick="respostaIncorreta(this)">Incremento do Produto</button>
+          </div>
+
+            <details>
+              <summary class="justificativa_pergunta">Justicativa:</summary>
+             <p>Alternativa correta : A. O Backlog do Produto se trata de uma lista priorizada, com funcionalidades e requisitos que 
+              deverão ser entregues ao longo das Sprints.</p>
+             </details>
         </div>
+
     </section>
         <br>
 
@@ -153,7 +152,7 @@
                 <button class="button" onclick="respostaIncorreta(this)">Backlog da Sprint</button>
               </div>
               <div class="option">
-                <button class="button" onclick="respostaCorreta(this)">Incremento do Protudo</button>
+                <button class="button" onclick="respostaCorreta(this)">Incremento do Produto</button>
               </div>
               <div class="option">
                 <button class="button" onclick="respostaIncorreta(this)">Burndown Chart</button>
@@ -179,7 +178,7 @@
                 que mostra a tendência da conclusão das tarefas ao longo do tempo?</div>
             <div class="options">
               <div class="option">
-                <button class="button" onclick="respostaIncorreta(this)">Backlog do Protudo</button>
+                <button class="button" onclick="respostaIncorreta(this)">Backlog do Produto</button>
               </div>
               <div class="option">
                 <button class="button" onclick="respostaCorreta(this)">Burndown Chart</button>
@@ -231,15 +230,16 @@
             </section>
         <br>
         </div>
+
         <script>
-            function respostaCorreta(element) {
-              element.style.backgroundColor = "#79FBAD";
-            }
-            
-            function respostaIncorreta(element) {
-              element.style.backgroundColor = "#FF7070";
-            }
-        </script>
+          function respostaCorreta(element) {
+            element.style.backgroundColor = "#79FBAD";
+          }
+          
+          function respostaIncorreta(element) {
+            element.style.backgroundColor = "#FF7070";
+          }
+      </script>
 
 </body>
 {% endblock %}
