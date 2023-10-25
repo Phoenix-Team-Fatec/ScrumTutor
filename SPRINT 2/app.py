@@ -29,30 +29,14 @@ def pacer():
 
 @app.route('/Criar', methods=['POST',])
 def criar():
-    papel = 'P.O'
-    proatividade = request.form['proat_po']
-    autonomia = request.form['aut_po']
-    colaboracao = request.form['colab_po']
-    entrega = request.form['entrega_po']
-    po = avaliacao(papel, proatividade, autonomia, colaboracao, entrega)
-    notas.append(po)
-
-    papel = 'S.M'
-    proatividade = request.form['proat_sm']
-    autonomia = request.form['aut_sm']
-    colaboracao = request.form['colab_sm']
-    entrega = request.form['entrega_sm']
-    sm = avaliacao(papel, proatividade, autonomia, colaboracao, entrega)
-    notas.append(sm)
-
-    papel = 'D.T'
-    proatividade = request.form['proat_dt']
-    autonomia = request.form['aut_dt']
-    colaboracao = request.form['colab_dt']
-    entrega = request.form['entrega_dt']
-    dt = avaliacao(papel, proatividade, autonomia, colaboracao, entrega)
-    
-    notas.append(dt)
+    papel = ['P.O', 'S.M','D.T']
+    proatividade = [request.form['proat_po'],request.form['proat_sm'],request.form['proat_dt'], ]
+    autonomia = [request.form['aut_po'],request.form['aut_sm'],request.form['aut_dt']]
+    colaboracao = [request.form['colab_po'],request.form['colab_sm'],request.form['colab_dt']]
+    entrega = [request.form['entrega_po'],request.form['entrega_sm'],request.form['entrega_dt']]
+    for i in range(len(papel)):
+        avaliado = avaliacao(papel[i], proatividade[i], autonomia[i], colaboracao[i], entrega[i])
+        notas.append(avaliado)
     return redirect('/Pacer')
 
 
