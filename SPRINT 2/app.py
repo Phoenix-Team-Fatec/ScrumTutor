@@ -38,14 +38,14 @@ def Eventos():
 @app.route('/Pacer')
 def pacer():
     if len(notas) > 3:
-        notas[0] = notas [1] = notas[2] = ''
+        notas.clear()
         return render_template('pacer.html', listas = notas)
     return render_template('pacer.html', listas = notas)
 
 
 @app.route('/Criar', methods=['POST',])
 def criar():
-
+    notas.clear()
     papel = ['P.O', 'S.M','D.T']
     proatividade = [request.form['proat_po'],request.form['proat_sm'],request.form['proat_dt'], ]
     autonomia = [request.form['aut_po'],request.form['aut_sm'],request.form['aut_dt']]
