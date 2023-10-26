@@ -172,6 +172,10 @@ nav{
 .h2_pacer{
     margin-left: 0%;
     border-radius: 12px;
+    color: #ffffff;
+}
+.h3_pacer{
+    color: #ffffff;
 }
 .pacer_card{
     margin-right: 5%;
@@ -183,6 +187,7 @@ nav{
 }
 .pacer_check{
     width: 50%;
+    color: #ffffff;
     padding-right: 5%;
     display: flex;
     align-items: baseline;
@@ -196,8 +201,14 @@ nav{
 .pacer_card_geral{
     padding: 2%;
     margin-bottom: 10%;
-    background-color: lightgray ;
-    border-radius: 12px;
+    background-color: black;
+    border-radius: 5px;
+}
+.ol_pacer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -5%;
 }
 .card_dois{
 
@@ -209,37 +220,42 @@ nav{
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-
 .card_pacer {
     justify-content: center;
     display: flex;
     background-color:rgb(14, 110, 255);
-   
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 20px ;
     padding: 20px;
     transition: transform 0.3s ease;
-  
 }
-
 .card_pacer:hover {
     transform: translateY(-8px); /* Efeito de elevação ao passar o mouse */
 }
-
 .card-content {
     flex: 1;
     padding: 10px;
 }
+.card-content li{
+    color: #ffffff;
+}
+.card-content h2{
+    color: #ffffff;
+}
+.card-content p{
+    color: #ffffff;
+}
 
+/*
 .card_pacer h2 {
     font-size: 1.5rem;
     margin: 0;
-    color: #ffffff;
+    color: white;
 }
 
 .card_pacer p {
     font-size: 1rem;
-    color: #ffffff;
+    color: white;
 }
 
 
@@ -250,7 +266,7 @@ nav{
 
 }
 
-
+*/
 
 /* Fim do PACER */
 
