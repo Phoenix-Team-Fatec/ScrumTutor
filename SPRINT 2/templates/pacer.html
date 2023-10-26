@@ -235,31 +235,31 @@
                                     <input type="radio" id="nota3" name="entrega_dt" value="3"> 
                                 </div>
                     </div>
+                    <button type="submit" class="submit">Salvar</button>
+                </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="th_pacer">Papel</th>
+                            <th class="th_pacer">Proatividade</th>
+                            <th class="th_pacer">Autonomia</th>
+                            <th class="th_pacer">Colaboração</th>
+                            <th class="th_pacer">Entrega</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in listas %}     
+                        <tr>
+                            <td>{{ item.papel }}</td>
+                            <td>{{ item.proatividade }}</td>
+                            <td>{{ item.autonomia }}</td>
+                            <td>{{ item.colaboracao }}</td>
+                            <td>{{ item.entrega }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
                 </div>
-                <button type="submit">Salvar</button>
-            </form>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>papel</th>
-                        <th>proatividade</th>
-                        <th>autonomia</th>
-                        <th>colaboracao</th>
-                        <th>entrega</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for item in listas %}     
-                    <tr>
-                        <td>{{ item.papel }}</td>
-                        <td>{{ item.proatividade }}</td>
-                        <td>{{ item.autonomia }}</td>
-                        <td>{{ item.colaboracao }}</td>
-                        <td>{{ item.entrega }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+                
 {% endblock %}
 

@@ -245,7 +245,21 @@ nav{
 .card-content p{
     color: #ffffff;
 }
-
+.submit{
+    justify-content: center;
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+    border: 2px solid white;
+}
+.submit:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+}
+.th_pacer{
+    color: white;
+}
 /*
 .card_pacer h2 {
     font-size: 1.5rem;
