@@ -175,129 +175,150 @@
     <!-- <img src="img/facilitação.jpg" alt="Imagem 1"> -->
 </div>
 
-<!--Inicio das Perguntas-->
+<!--Início das perguntas-->
 <main>
+    <h2 id="perguntas_apendice">Perguntas</h2>
+    <div class="container_perguntas">
+    <section>
+      <div class="container">
+        <div class="question" id="question">1 - Um Team Scrum, está desenvolvendo e-comercy, após a primeira sprint, o Team Scrum foi fazer a Sprint Planning, porém estavam com dificuldade de planejar a próxima Sprint.
+            Qual das alternativas a seguir apresenta os termos essenciais a serem planejados na Sprint
+            seguinte?</div>
+        <div class="options">
+          <div class="option">
+            <button class="button" data-question="pergunta1" data-answer="wrong" onclick="checkAnswer('pergunta1', this)">Planejar quem vai ser o novo P.O e Scrum Master do Team Scrum.</button>
+          </div>
+          <div class="option">
+            <button class="button" data-question="pergunta1" data-answer="wrong" onclick="checkAnswer('pergunta1', this)">Nunca mexer no backlog, apenas fazer o mesmo processo da primeira Sprint.</button>
+          </div>
+          <div class="option">
+            <button class="button" data-question="pergunta1" data-answer="correct" onclick="checkAnswer('pergunta1', this)">Incrementar o backlog com novos itens, além de definir uma meta para a próxima Sprint.</button>
+          </div>
+          <div class="option">
+            <button class="button" data-question="pergunta1" data-answer="wrong" onclick="checkAnswer('pergunta1', this)">Não realizar nenhum incremento no produto.</button>
+          </div>
+
+            <details>
+              <summary class="justificativa_pergunta">Justicativa:</summary>
+             <p>Alternativa : C. Ao final de cada sprint é feito um Sprint Planning, aonde será planejado os itens que serão adicionados ao backlog, e definir uma meta para a próxima sprint.</p>
+             </details>
+        </div>
+
+    </section>
+        <br>
+
+    <hr>
+
     <section>
         <div class="container">
-                <p>1 - Um Team Scrum, está desenvolvendo e-commerce, após a primeira sprint, o Team Scrum
-                    foi fazer a Sprint Planning, porém estavam com dificuldade de planejar a próxima Sprint.
-                    Qual das alternativas a seguir apresenta os termos essenciais a serem planejados na Sprint
-                    seguinte?</p>
-                <div class="choice-container">
-                    <span class="choice-prefix">A</span>
-                    <span class="choice-text">Planejar quem vai ser o novo P.O e Scrum Master do Team Scrum.</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">B</span>
-                    <span class="choice-text">Nunca mexer no backlog, apenas fazer o mesmo processo da primeira Sprint.</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">C</span>
-                    <span class="choice-text">Incrementar o backlog com novos itens, além de definir uma meta para a próxima Sprint.</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">D</span>
-                    <span class="choice-text">Não realizar nenhum incremento no produto.</span>
-                </div>
-                <div>
-                    <section>
-                        <details>
-                            <summary>Resposta Correta</summary>
-                    <p>Alternativa C, ao final de cada sprint é feito um Sprint Planning, aonde será planejado os itens que serão adicionados ao backlog, e definir uma meta para a próxima sprint.  </p>
-                        </details>
-                    </section>
-                </div>
-                <br><hr>
-                <br>
-            
-                <p>2 - Samuel faz parte do time de desenvolvimento do Scrum, e esta tendo vários impeditivos, e não está conseguindo desenvolver sua parte do projeto. Em Qual evento Samuel pode relatar os problemas que anda enfrentando?</p>
-                <div class="choice-container">
-                    <span class="choice-prefix">A</span>
-                    <span class="choice-text">Sprint Review</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">B</span>
-                    <span class="choice-text">Sprint</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">C</span>
-                    <span class="choice-text">Sprint Retrospective</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">D</span>
-                    <span class="choice-text">Daily Scrum</span>
-                </div>
-                <div>
-                    <section>
-                        <details>
-                            <summary>Resposta Correta</summary>
-                    <p>Alternativa D, é na daily scrum que o Scrum Master, irá ouvir, se algum membro do time de desenvolvimento apresentou algum problema, visto o problema o mesmo irá solucionar.  </p>  
-                        </details>
-                    </section>      
-                </div>
+            <div class="question" id="question">2.Samuel faz parte do time de desenvolvimento do Scrum, e esta tendo vários impeditivos, e não está conseguindo desenvolver sua parte do projeto. Em qual desses evento, Samuel pode relatar os problemas que anda enfrentando?</div>
+            <div class="options">
+              <div class="option">
+                <button class="button" data-question="pergunta2" data-answer="wrong" onclick="checkAnswer('pergunta2', this)">Sprint Review.</button>
+              </div>
+              <div class="option">
+                <button class="button" data-question="pergunta2" data-answer="wrong" onclick="checkAnswer('pergunta2', this)">Sprint.</button>
+              </div>
+              <div class="option">
+                <button class="button" data-question="pergunta2" data-answer="wrong" onclick="checkAnswer('pergunta2', this)">Sprint Retrospective.</button>
+              </div>
+              <div class="option">
+                <button class="button" data-question="pergunta2" data-answer="correct" onclick="checkAnswer('pergunta2', this)">Daily Scrum.</button>
+              </div>
+
+              <details>
+                <summary class="justificativa_pergunta">Justicativa:</summary>
+               <p>Alternativa : D. É na daily scrum que o Scrum Master, irá ouvir, se algum membro do time de desenvolvimento apresentou algum problema, visto o problema o mesmo irá solucionar.
+
+               </p>
+               </details>
         </div>
-                <br><hr>
-                <br>
-        
-                <div>
-                    <p>3 -   Em qual momento o time srcrum dedica o seu tempo a inspecionar, analisar e criar um plano de acordo?</p>
-                <div class="choice-container">
-                    <span class="choice-prefix">A</span>
-                    <span class="choice-text">Sprint Review</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">B</span>
-                    <span class="choice-text">Daily Sprint</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">C</span>
-                    <span class="choice-text">Revisão de planejamento</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">D</span>
-                    <span class="choice-text">Retrospectiva Sprint</span>
-                </div>
-                <div>
-                    <section>
-                        <details>
-                            <summary>Resposta Correta</summary>
-                    <p>Alternativa D, É na Retrospectiva Sprint que após o fechamento de todo o ciclo de desenvolvimento que o time dedica seu tempo a inspecionar, analisar e com base criar o plano de acordo afim de melhoria contínua.  </p>
-                        </details>
-                    </section>
-                </div>
-                <br><hr>
-                <br>
-                    
-                <p>4 - Durante todo o processo da sprint ao final dela é realizada a verificação do produto, e de como prosseguir adiante. Como todos os integrantes da equipe participa do processo, quem tem a função de validar se todos os critérios foram executados?</p>
-                <div class="choice-container">
-                    <span class="choice-prefix">A</span>
-                    <span class="choice-text">Scrum Master</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">B</span>
-                    <span class="choice-text">Product Owner</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">C</span>
-                    <span class="choice-text">Cliente</span>
-                </div>
-                <div class="choice-container">
-                    <span class="choice-prefix">D</span>
-                    <span class="choice-text">Time Scrum</span>
-                </div>
-                <div>
-                    <section>
-                        <details>
-                            <summary>Resposta Correta</summary>
-                    <p>Alternativa B,  PO ( Product Owner ) é considerado líder da equipe, com isso ele é quem gerencia e prioriza a backlog do produto.  </p>
-                        </details>
-                    </section>
-                </div>
-                </div>
-                <br>
-                
     </section>
+
+        <br>
+
+        <hr>
+    
+        <section>
+            <div class="container">
+                <div class="question" id="question">3.Em qual momento o time srcrum dedica o seu tempo a inspecionar, analisar e criar um plano de acordo?</div>
+                <div class="options">
+                  <div class="option">
+                    <button class="button" data-question="pergunta3" data-answer="wrong" onclick="checkAnswer('pergunta3', this)">Sprint Review.</button>
+                  </div>
+                  <div class="option">
+                    <button class="button" data-question="pergunta3" data-answer="wrong" onclick="checkAnswer('pergunta3', this)">Daily Sprint.</button>
+                  </div>
+                  <div class="option">
+                    <button class="button" data-question="pergunta3" data-answer="wrong" onclick="checkAnswer('pergunta3', this)"> Revisão de Planejamento.</button>
+                  </div>
+                  <div class="option">
+                    <button class="button" data-question="pergunta3" data-answer="correct" onclick="checkAnswer('pergunta3', this)"> Retrospectiva Sprint.</button>
+                  </div>
+    
+                  <details>
+                    <summary class="justificativa_pergunta">Justicativa:</summary>
+                   <p>Alternativa: D.  É na Retrospectiva Sprint que após o fechamento de todo o ciclo de desenvolvimento que o time dedica seu tempo a inspecionar, analisar e com base criar o plano de acordo afim de melhoria contínua
+                </p>
+                   </details>
+            </div>
+        </section>
+    
+        <br>
+    
+        <hr> 
+
+        <section>
+            <div class="container">4. Durante todo o processo da sprint ao final dela é realizada a verificação do produto, e de como prosseguir adiante. Como todos os integrantes da equipe participa do processo, quem tem a função de validar se todos os critérios foram executados?</div>
+                <div class="options">
+                  <div class="option">
+                    <button class="button" data-question="pergunta4" data-answer="wrong" onclick="checkAnswer('pergunta4', this)">Scrum Master</button>
+                  </div>
+                  <div class="option">
+                    <button class="button" data-question="pergunta4" data-answer="correct" onclick="checkAnswer('pergunta4', this)">Product Owner</button>
+                  </div>
+                  <div class="option">
+                    <button class="button" data-question="pergunta4" data-answer="wrong" onclick="checkAnswer('pergunta4', this)">Time Scrum</button>
+                  </div>
+                  <div class="option">
+                    <button class="button" data-question="pergunta4" data-answer="wrong" onclick="checkAnswer('pergunta4', this)">Cliente</button>
+                  </div>
+    
+                  <details>
+                    <summary class="justificativa_pergunta">Justicativa:</summary>
+                   <p>Alternativa: B.  PO ( Product Owner ) é considerado líder da equipe, com isso ele é quem gerencia e prioriza a backlog do produto.</p>
+                   </details>
+            </div>
+        </section>
+    
+        <br>
+    
+        <hr>    
+
+        <script>
+          function checkAnswer(question, clickedButton) {
+              var buttons = document.querySelectorAll('[data-question="' + question + '"]');
+              var correctAnswer;
+              var wrongAnswers = [];
+          
+              for (var i = 0; i < buttons.length; i++) {
+                  if (buttons[i].getAttribute('data-answer') === 'correct') {
+                      correctAnswer = buttons[i];
+                  } else {
+                      wrongAnswers.push(buttons[i]);
+                  }
+              }
+          
+              for (var i = 0; i < wrongAnswers.length; i++) {
+                  wrongAnswers[i].style.backgroundColor = '#FF7070';
+              }
+              correctAnswer.style.backgroundColor = '#79FBAD';
+              clickedButton.style.backgroundColor = clickedButton.getAttribute('data-answer') === 'correct' ? '#79FBAD' : '#FF7070';
+          }
+          </script>
+
 </main>
+    
 <!--Fim das perguntas-->
 
 
