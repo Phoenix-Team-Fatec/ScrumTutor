@@ -59,24 +59,24 @@ def criar():
     msg = Message("Avaliação", sender="noreply@app.com", recipients=["phoenix.team.sjc@gmail.com"])
     # Conteúdo da tabela HTML incorporado como uma string
     html_content = """
-    <table>
+     <table style="border-collapse: collapse; width: 100%;">
         <thead>
             <tr>
-                <th>papel</th>
-                <th>proatividade</th>
-                <th>autonomia</th>
-                <th>colaboracao</th>
-                <th>entrega</th>
+                <th style="border: 1px solid black; padding: 8px; text-align: center; background-color: #f2f2f2;">papel</th>
+                <th style="border: 1px solid black; padding: 8px; text-align: center; background-color: #f2f2f2;">proatividade</th>
+                <th style="border: 1px solid black; padding: 8px; text-align: center; background-color: #f2f2f2;">autonomia</th>
+                <th style="border: 1px solid black; padding: 8px; text-align: center; background-color: #f2f2f2;">colaboracao</th>
+                <th style="border: 1px solid black; padding: 8px; text-align: center; background-color: #f2f2f2;">entrega</th>
             </tr>
         </thead>
         <tbody>
             {% for item in listas %}
             <tr>
-                <td>{{ item.papel }}</td>
-                <td>{{ item.proatividade }}</td>
-                <td>{{ item.autonomia }}</td>
-                <td>{{ item.colaboracao }}</td>
-                <td>{{ item.entrega }}</td>
+                <td style="border: 1px solid black; padding: 8px; text-align: center;">{{ item.papel }}</td>
+                <td style="border: 1px solid black; padding: 8px; text-align: center;">{{ item.proatividade }}</td>
+                <td style="border: 1px solid black; padding: 8px; text-align: center;">{{ item.autonomia }}</td>
+                <td style="border: 1px solid black; padding: 8px; text-align: center;">{{ item.colaboracao }}</td>
+                <td style="border: 1px solid black; padding: 8px; text-align: center;">{{ item.entrega }}</td>
             </tr>
             {% endfor %}
         </tbody>
