@@ -69,10 +69,10 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 | #10    | Baixa |Eu, enquanto cliente, quero a explicação do método de avaliação que será usado (PACER)| Website | 2 |
 | #11    | Alta |Eu, enquanto cliente , quero avaliar a equipe com os seguintes requisitos: proatividade, autonomia, colaboração e entrega de resultados.| Website | 3 |
 | #12    | Média |Eu, enquanto cliente , quero visualizar as notas individuais e gerais da equipe  no site da avaliação| Website | 3 |
-| #13    | Média | Eu, enquanto cliente, quero que este site esteja hospedado na internet, para acessá-lo de qualquer lugar| Website | 3 |
-| #14    | Baixa | Eu, enquanto cliente , quero que as perguntas sejam feitas de maneira dinâmica e contenham justificativas| Website | 3 |
-| #15    | Alta | Eu, enquanto cliente, quero que a navegação e usabilidade seja simples e intuitiva| Website | 4 |
-| #16    | Média | Eu, enquanto cliente, quero que a página contenha uma identidade visual | Website | 4 |
+| #13    | Baixa | Eu, enquanto cliente , quero que as perguntas sejam feitas de maneira dinâmica e contenham justificativas| Website | 3 |
+| #14    | Alta | Eu, enquanto cliente, quero que a navegação e usabilidade seja simples e intuitiva| Website | 4 |
+| #15    | Média | Eu, enquanto cliente, quero que a página contenha uma identidade visual | Website | 4 |
+| #16    | Média | Eu, enquanto cliente, quero que este site esteja hospedado na internet, para acessá-lo de qualquer lugar| Website | 4 |
 
 
 
@@ -133,6 +133,12 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 
 
 ### Sprint 3 - Conclusão das Perguntas e Avaliação
+
+| ITEM   | STATUS |
+| :----: | :----: |
+|Funcionamento do Quadro PACER| :white_check_mark: |
+|Funcionamento da Seção Perguntas| :white_check_mark: |
+|Criação de comando "Enviar por E-mail"| :white_check_mark: |
 
 ### Sprint 4 - Estilização
 
