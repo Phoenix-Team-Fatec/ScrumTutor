@@ -28,7 +28,7 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 ## MVP
 <span id="mvp">
     
-![PHOENIX](https://github.com/Phoenix-Team-Fatec/API/assets/89617179/62391622-ee54-47aa-8cb8-60eb4835fff4)
+![PHOENIX](https://github.com/Phoenix-Team-Fatec/API/assets/89617179/25e215b2-693e-4a83-a798-e9041043910a)
 
 
  O Produto Mínimo Viável – ou Minimum Viable Product (MVP) – é a versão simplificada de um produto final de uma startup. O empreendedor vai oferecer o mínimo de funcionalidades com o objetivo de testar o produto ou serviço no mercado.<br><br>
