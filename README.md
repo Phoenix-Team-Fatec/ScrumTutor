@@ -44,6 +44,8 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 
  ### MVP SPRINT 3
 
+[SPRINT 3](https://youtu.be/zL2mmvXW57w)
+
  ### MVP SPRINT 4
 
 > _O mínimo produto viável também é o objetivo da primeira sprint_  <br><br>
