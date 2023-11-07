@@ -129,6 +129,7 @@
                                     <input type="radio" id="nota3" name="entrega_po" value="3" required> 
                                 </div>
                     </div>
+                    <br>
                     <div class="pacer_card">
                             <h2 class="h2_pacer">Scrum Master:</h2>   
                                 <div class="pacer_check">
@@ -182,6 +183,7 @@
                                     <input type="radio" id="nota3" name="entrega_sm" value="3"> 
                                 </div>
                     </div>
+                    <br>
                     <div class="pacer_card">
                             <h2 class="h2_pacer">DevTeam 1:</h2>
                                 <div class="pacer_check">
@@ -235,30 +237,35 @@
                                     <input type="radio" id="nota3" name="entrega_dt" value="3"> 
                                 </div>
                     </div>
-                    <button type="submit" class="submit">Salvar</button>
+                    <div class="email_geral">
+                        <input type="email" name="email_destinatario" placeholder="Digite o e-mail">
+                        <button type="submit" class="submit">Enviar</button>
+                    </div>
                 </form>
-                <table>
-                    <thead>
-                        <tr>
-                            <th class="th_pacer">Papel</th>
-                            <th class="th_pacer">Proatividade</th>
-                            <th class="th_pacer">Autonomia</th>
-                            <th class="th_pacer">Colaboração</th>
-                            <th class="th_pacer">Entrega</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for item in listas %}     
-                        <tr>
-                            <td>{{ item.papel }}</td>
-                            <td>{{ item.proatividade }}</td>
-                            <td>{{ item.autonomia }}</td>
-                            <td>{{ item.colaboracao }}</td>
-                            <td>{{ item.entrega }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
+                <div class="tab_notas">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="th_pacer">Papel</th>
+                                <th class="th_pacer">Proatividade</th>
+                                <th class="th_pacer">Autonomia</th>
+                                <th class="th_pacer">Colaboração</th>
+                                <th class="th_pacer">Entrega</th>
+                            </tr>
+                        </thead>
+                        <tbody class="th_pacer">
+                            {% for item in listas %}     
+                            <tr>
+                                <td>{{ item.papel }}</td>
+                                <td>{{ item.proatividade }}</td>
+                                <td>{{ item.autonomia }}</td>
+                                <td>{{ item.colaboracao }}</td>
+                                <td>{{ item.entrega }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>    
                 </div>
                 
 {% endblock %}

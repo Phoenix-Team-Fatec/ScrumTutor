@@ -171,7 +171,7 @@ nav{
 }
 .h2_pacer{
     margin-left: 0%;
-    border-radius: 12px;
+    border-radius: 15px;
     color: #ffffff;
 }
 .h3_pacer{
@@ -202,7 +202,7 @@ nav{
     padding: 2%;
     margin-bottom: 10%;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .ol_pacer{
     display: flex;
@@ -211,12 +211,10 @@ nav{
     margin-left: -5%;
 }
 .card_dois{
-
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-.card_restante{
-   
+.card_restante{ 
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
@@ -224,7 +222,7 @@ nav{
     justify-content: center;
     display: flex;
     background-color:rgb(14, 110, 255);
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 20px ;
     padding: 20px;
     transition: transform 0.3s ease;
@@ -245,6 +243,24 @@ nav{
 .card-content p{
     color: #ffffff;
 }
+td{
+    text-align: center;
+}
+th{
+    width: 150px;
+}
+.email_geral{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 35%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.tab_notas{
+    display: flex;
+    margin-left: 12.5%;
+}
 .submit{
     justify-content: center;
     background-color: black;
@@ -258,29 +274,9 @@ nav{
     color: black;
 }
 .th_pacer{
+    margin-left: 25%;
     color: white;
 }
-/*
-.card_pacer h2 {
-    font-size: 1.5rem;
-    margin: 0;
-    color: white;
-}
-
-.card_pacer p {
-    font-size: 1rem;
-    color: white;
-}
-
-
-
-.card_pacer h3{
-    font-size: 1rem;
-    color: #ffffff;
-
-}
-
-*/
 
 /* Fim do PACER */
 
