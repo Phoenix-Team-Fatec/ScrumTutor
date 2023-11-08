@@ -51,12 +51,13 @@ def criar():
     autonomia = [request.form['aut_po'],request.form['aut_sm'],request.form['aut_dt']]
     colaboracao = [request.form['colab_po'],request.form['colab_sm'],request.form['colab_dt']]
     entrega = [request.form['entrega_po'],request.form['entrega_sm'],request.form['entrega_dt']]
+    email_destinatario = request.form['email_destinatario']
     for i in range(len(papel)):
         avaliado = avaliacao(papel[i], proatividade[i], autonomia[i], colaboracao[i], entrega[i])
         notas.append(avaliado)
         
 
-    msg = Message("Avaliação", sender="noreply@app.com", recipients=["phoenix.team.sjc@gmail.com"])
+    msg = Message("Avaliação", sender="noreply@app.com", recipients=[email_destinatario])
     # Conteúdo da tabela HTML incorporado como uma string
     html_content = """
      <table style="border-collapse: collapse; width: 100%;">

@@ -1,0 +1,272 @@
+
+{% extends "base.html" %}
+{% block main %}
+
+<div class="card_pacer" id="card1">
+    <div class="card-content">
+        <h2><b>O que é a avaliação PACER?</b></h2>
+        <br>
+            <p>
+            Essa avaliação mede os seguintes pontos dos integrantes da equipe: 
+            Proatividade, Autonomia, Colaboração e Entrega de resultados. Todos
+            que fazem parte da equipe estão sujeitos a avaliação. Esse é um metodo
+            pra medir o desempenho dos individuos, normalmente realizado ao final de cada sprint. 
+            </p>
+    </div>
+</div>
+<div class="card_dois">
+<div class="card_pacer" id="card2">
+    <div class="card-content">
+        <h2><b>PROATIVIDADE</b></h2>
+        <br>
+        
+        <ol class="ol_pacer">
+            <li>Reativo: Não tem iniciativa alguma, fica esperando alguém dizer o que fazer ou que o problema apareça. Não observa os próximos passos do planejamento.</li>
+            <li>Desfocado: Pega muitas atividades gerais e não inicia nenhuma devidamente. Mesmo nas tarefas mais simples tem respostas lentas.</li>
+            <li>Ativo: Tenta pegar as tarefas mais difíceis sempre que disponíveis. Fundamental para alcançar a meta da sprint. Pode se enroscar em pequenos problemas não previstos.</li>
+            <li>Proativo: Foco nas tarefas mais valiosas. Além da iniciativa, evita antecipadamente problemas. Altíssima produtividade, foco em uma tarefa por vez e sempre bem feita.</li>
+        </ol>
+        
+    </div>
+</div>
+
+<div class="card_pacer" id="card3">
+    <div class="card-content">
+        <h2><b>AUTONOMIA</b></h2>
+        <br>
+        <ol class="ol_pacer">
+            <li>Dirigido: Não consegue/não quer iniciar suas atividades. Sempre precisa de alguém ao lado para progredir nas atividades.</li>
+            <li>Gerido: Demora demais para iniciar as atividades. Demora para perceber que precisa de ajuda. Só avança quando alguém lhe diz exatamente o que deve ser feito.</li>
+            <li>Treinado: Recorre a experiências descritas por alguém antes de tomar as atitudes. Repete passos buscando os mesmos resultados. Pouca capacidade criativa.</li>
+            <li>Autogestão: Sempre assume as suas responsabilidades com proatividade. Suas estimativas de prazo são precisas. Capacidade analítica/crítica dos desafios que se apresentam.</li>
+        </ol>
+    </div>
+</div>
+</div>
+<div class="card_restante">
+<div class="card_pacer" id="card4">
+    <div class="card-content">
+        <h2><b>COLABORAÇÃO</b></h2>
+        <br>
+        <ol class="ol_pacer">
+            <li>Ausente: Não aparece nas reuniões. Não se interessa pelo projeto.</li>
+            <li>Cooperativo: Preocupa-se com a organização, contudo não cumpre seu papel. Provê informação, mas não faz uma comunicação efetiva. Toma decisões individualmente, mas não em equipe.</li>
+            <li>Coordenado: Compartilha as informações. Segue bem os papéis definidos. Comunica-se com frequência. Compartilha as decisões tomadas.</li>
+            <li>Colaborativo: A equipe age como se fosse um único organismo. A comunicação é prioridade e sempre remete confiança para todos. As decisões chegam em consenso. Compartilha ideias e recursos.</li>
+        </ol>
+    </div>
+</div>
+
+<div class="card_pacer" id="card5">
+    <div class="card-content">
+        <h2><b>ENTREGA DE RESULTADOS</b></h2>
+        <br>
+        <ol>
+            <li>Não há entregas: Não ocorre entrega de sucesso. Existem pontos que aparentemente não serão resolvíveis no tempo restante.</li>
+            <li>Entregas duvidosas: Existem dúvidas se a entrega não arrisca o projeto em algumas áreas. Ações urgentes precisam ser tomadas para garantir a entrega.</li>
+            <li>Entregas confiáveis: O sucesso é provável. Contudo, é necessário uma atenção constante para garantir que riscos não ameacem o projeto.</li>
+            <li>Entregas perfeitas: Entregas completas, sem erros, bem documentadas com qualidade.</li>
+        </ol>
+    </div>
+</div>
+</div>
+
+<!--Início Avaliação PACER-->
+
+    <h1 class="h1_pacer">Avaliação PACER</h1>
+            <form method="post" action="/Criar">
+                <div class="pacer_card_geral">
+                    <div class="pacer_card">
+                        <h2 class="h2_pacer">Product Owner:</h2>
+                                <div class="pacer_check">
+                                    <span>0</span> 
+                                    <span>1</span> 
+                                    <span>2</span> 
+                                    <span>3</span> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Proatividade:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="proat_po" value="0" required>
+                                    <input type="radio" id="nota1" name="proat_po" value="1" required>
+                                    <input type="radio" id="nota2" name="proat_po" value="2" required>
+                                    <input type="radio" id="nota3" name="proat_po" value="3" required> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Autonomia:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="aut_po" value="0" required>
+                                    <input type="radio" id="nota1" name="aut_po" value="1" required>
+                                    <input type="radio" id="nota2" name="aut_po" value="2" required>
+                                    <input type="radio" id="nota3" name="aut_po" value="3" required> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Colaboração:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="colab_po" value="0" required>
+                                    <input type="radio" id="nota1" name="colab_po" value="1" required>
+                                    <input type="radio" id="nota2" name="colab_po" value="2" required>
+                                    <input type="radio" id="nota3" name="colab_po" value="3" required> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Entrega de resultados:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="entrega_po" value="0" required>
+                                    <input type="radio" id="nota1" name="entrega_po" value="1" required>
+                                    <input type="radio" id="nota2" name="entrega_po" value="2" required>
+                                    <input type="radio" id="nota3" name="entrega_po" value="3" required> 
+                                </div>
+                    </div>
+                    <br>
+                    <div class="pacer_card">
+                            <h2 class="h2_pacer">Scrum Master:</h2>   
+                                <div class="pacer_check">
+                                    <span>0</span> 
+                                    <span>1</span> 
+                                    <span>2</span> 
+                                    <span>3</span> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Proatividade:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="proat_sm" value="0">
+                                    <input type="radio" id="nota1" name="proat_sm" value="1">
+                                    <input type="radio" id="nota2" name="proat_sm" value="2">
+                                    <input type="radio" id="nota3" name="proat_sm" value="3"> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Autonomia:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="aut_sm" value="0">
+                                    <input type="radio" id="nota1" name="aut_sm" value="1">
+                                    <input type="radio" id="nota2" name="aut_sm" value="2">
+                                    <input type="radio" id="nota3" name="aut_sm" value="3"> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Colaboração:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="colab_sm" value="0">
+                                    <input type="radio" id="nota1" name="colab_sm" value="1">
+                                    <input type="radio" id="nota2" name="colab_sm" value="2">
+                                    <input type="radio" id="nota3" name="colab_sm" value="3"> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Entrega de resultados:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="entrega_sm" value="0">
+                                    <input type="radio" id="nota1" name="entrega_sm" value="1">
+                                    <input type="radio" id="nota2" name="entrega_sm" value="2">
+                                    <input type="radio" id="nota3" name="entrega_sm" value="3"> 
+                                </div>
+                    </div>
+                    <br>
+                    <div class="pacer_card">
+                            <h2 class="h2_pacer">DevTeam 1:</h2>
+                                <div class="pacer_check">
+                                    <span>0</span> 
+                                    <span>1</span> 
+                                    <span>2</span> 
+                                    <span>3</span> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Proatividade:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="proat_dt" value="0">
+                                    <input type="radio" id="nota1" name="proat_dt" value="1">
+                                    <input type="radio" id="nota2" name="proat_dt" value="2">
+                                    <input type="radio" id="nota3" name="proat_dt" value="3"> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Autonomia:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="aut_dt" value="0">
+                                    <input type="radio" id="nota1" name="aut_dt" value="1">
+                                    <input type="radio" id="nota2" name="aut_dt" value="2">
+                                    <input type="radio" id="nota3" name="aut_dt" value="3"> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Colaboração:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="colab_dt" value="0">
+                                    <input type="radio" id="nota1" name="colab_dt" value="1">
+                                    <input type="radio" id="nota2" name="colab_dt" value="2">
+                                    <input type="radio" id="nota3" name="colab_dt" value="3"> 
+                                </div>
+                    </div>
+                    <div class="pacer_card">
+                        <div class="pacer_card__ngc"> 
+                            <h3 class="h3_pacer">Entrega de resultados:</h3> 
+                        </div>
+                                <div class="pacer_check">
+                                    <input type="radio" id="nota0" name="entrega_dt" value="0">
+                                    <input type="radio" id="nota1" name="entrega_dt" value="1">
+                                    <input type="radio" id="nota2" name="entrega_dt" value="2">
+                                    <input type="radio" id="nota3" name="entrega_dt" value="3"> 
+                                </div>
+                    </div>
+                    <div class="email_geral">
+                        <input type="email" name="email_destinatario" placeholder="Digite o e-mail">
+                        <button type="submit" class="submit">Enviar</button>
+                    </div>
+                </form>
+                <div class="tab_notas">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="th_pacer">Papel</th>
+                                <th class="th_pacer">Proatividade</th>
+                                <th class="th_pacer">Autonomia</th>
+                                <th class="th_pacer">Colaboração</th>
+                                <th class="th_pacer">Entrega</th>
+                            </tr>
+                        </thead>
+                        <tbody class="th_pacer">
+                            {% for item in listas %}     
+                            <tr>
+                                <td>{{ item.papel }}</td>
+                                <td>{{ item.proatividade }}</td>
+                                <td>{{ item.autonomia }}</td>
+                                <td>{{ item.colaboracao }}</td>
+                                <td>{{ item.entrega }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>    
+                </div>
+                
+{% endblock %}
+
