@@ -69,7 +69,7 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 | #08    | Média |Eu, enquanto cliente, quero que todo o conteúdo das páginas contenha perguntas para aplicar o contéudo| Website | 2 | 
 | #09    | Baixa |Eu, enquanto cliente, quero facilitar a navegação com um menu funcional que direciona para as demais páginas| Website | 2 |
 | #10    | Baixa |Eu, enquanto cliente, quero a explicação do método de avaliação que será usado (PACER)| Website | 2 |
-| #11    | Alta |Eu, enquanto cliente , quero avaliar a equipe com os seguintes requisitos: proatividade, autonomia, colaboração e entrega de resultados.| Website | 3 |
+| #11    | Alta |Eu, enquanto cliente , quero avaliar a equipe com os seguintes requisitos: proatividade, autonomia, colaboração e entrega de resultados. E receber isso no email.| Website | 3 |
 | #12    | Média |Eu, enquanto cliente , quero visualizar as notas individuais e gerais da equipe  no site da avaliação| Website | 3 |
 | #13    | Baixa | Eu, enquanto cliente , quero que as perguntas sejam feitas de maneira dinâmica e contenham justificativas| Website | 3 |
 | #14    | Alta | Eu, enquanto cliente, quero que a navegação e usabilidade seja simples e intuitiva| Website | 4 |
