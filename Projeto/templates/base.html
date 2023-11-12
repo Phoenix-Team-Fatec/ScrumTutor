@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOENIX - TEAM</title>
+    <link rel="stylesheet" href="../static/CSS/reset.css">
+    <link rel="stylesheet" href="../static/CSS/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__menu">
+            <div class="header__menu_logo"></div>
+            <div class="header__menu_links">
+                <p class="header__menu_links_link"></p>
+                <div id="logo">
+                    <img src="../static/IMG/ScrumTutor.jpg">
+                </div>
+                <nav id="menu_principal">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/artefatos">Artefatos do Scrum</a></li>
+                        <li><a href="/Eventos">Eventos do Scrum</a></li>
+                        <li><a href="/Papéis">Papéis do Scrum</a></li>
+                        <li><a href="/Apendice">Apêndice</a></li>
+                        <li><a href="/Bibliografia">Bibliografia</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="header__submmenu">
+            {% block header %}
+            {% endblock %}
+        </section>
+    </header>
+    <main class="main">
+
+        {% block main %}
+        {% endblock %}
+
+    </main>
+    <footer>
+        <div id="footer_content">
+            <img src="../static/IMG/logobrancorodape.jpg" alt="logo">
+
+            &#169
+            2023 Todos os direitos reservados
+
+            
+            <h3>phoenixteam@outlook.com.br</h3></div>
+        </div>
+        
+    </footer>
+</body>
+</html>
