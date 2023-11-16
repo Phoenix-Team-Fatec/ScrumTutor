@@ -39,22 +39,31 @@ def Eventos():
 def teste():
     return render_template('teste.html')
 
+limite = 3
+
 @app.route('/Pacer')
 def pacer():
-    if len(notas) > 3:
+    if len(notas) > 2 + limite:
         notas.clear()
-        return render_template('pacer.html', listas = notas)
-    return render_template('pacer.html', listas = notas)
+        return render_template('pacer.html', listas = notas, lim = limite)
+    return render_template('pacer.html', listas = notas, lim = limite)
 
 
 @app.route('/Criar', methods=['POST',])
 def criar():
     notas.clear()
-    papel = ['P.O', 'S.M','D.T']
-    proatividade = [request.form['proat_po'],request.form['proat_sm'],request.form['proat_dt'], ]
-    autonomia = [request.form['aut_po'],request.form['aut_sm'],request.form['aut_dt']]
-    colaboracao = [request.form['colab_po'],request.form['colab_sm'],request.form['colab_dt']]
-    entrega = [request.form['entrega_po'],request.form['entrega_sm'],request.form['entrega_dt']]
+    papel = ['P.O', 'S.M']
+    proatividade = [request.form['proat_po'],request.form['proat_sm']]
+    autonomia = [request.form['aut_po'],request.form['aut_sm']]
+    colaboracao = [request.form['colab_po'],request.form['colab_sm']]
+    entrega = [request.form['entrega_po'],request.form['entrega_sm']]
+    for i in range(limite):
+        i = str(i)
+        papel.append("D.T"+i)
+        proatividade.append(request.form['proat_dt'+i])
+        autonomia.append(request.form['aut_dt'+i])
+        colaboracao.append(request.form['colab_dt'+i])
+        entrega.append(request.form['entrega_dt'+i])
     email_destinatario = request.form['email_destinatario']
     for i in range(len(papel)):
         avaliado = avaliacao(papel[i], proatividade[i], autonomia[i], colaboracao[i], entrega[i])

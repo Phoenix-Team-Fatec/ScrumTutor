@@ -184,8 +184,13 @@
                                 </div>
                     </div>
                     <br>
+
+
+                    {% for i in range(lim) %}
+                    
+
                     <div class="pacer_card">
-                            <h2 class="h2_pacer">DevTeam 1:</h2>
+                            <h2 class="h2_pacer">DevTeam:</h2>
                                 <div class="pacer_check">
                                     <span>0</span> 
                                     <span>1</span> 
@@ -198,10 +203,10 @@
                             <h3 class="h3_pacer">Proatividade:</h3> 
                         </div>
                                 <div class="pacer_check">
-                                    <input type="radio" id="nota0" name="proat_dt" value="0">
-                                    <input type="radio" id="nota1" name="proat_dt" value="1">
-                                    <input type="radio" id="nota2" name="proat_dt" value="2">
-                                    <input type="radio" id="nota3" name="proat_dt" value="3"> 
+                                    <input type="radio" id="nota0" name="proat_dt{{ i }}" value="0">
+                                    <input type="radio" id="nota1" name="proat_dt{{ i }}" value="1">
+                                    <input type="radio" id="nota2" name="proat_dt{{ i }}" value="2">
+                                    <input type="radio" id="nota3" name="proat_dt{{ i }}" value="3"> 
                                 </div>
                     </div>
                     <div class="pacer_card">
@@ -209,10 +214,10 @@
                             <h3 class="h3_pacer">Autonomia:</h3> 
                         </div>
                                 <div class="pacer_check">
-                                    <input type="radio" id="nota0" name="aut_dt" value="0">
-                                    <input type="radio" id="nota1" name="aut_dt" value="1">
-                                    <input type="radio" id="nota2" name="aut_dt" value="2">
-                                    <input type="radio" id="nota3" name="aut_dt" value="3"> 
+                                    <input type="radio" id="nota0" name="aut_dt{{ i }}" value="0">
+                                    <input type="radio" id="nota1" name="aut_dt{{ i }}" value="1">
+                                    <input type="radio" id="nota2" name="aut_dt{{ i }}" value="2">
+                                    <input type="radio" id="nota3" name="aut_dt{{ i }}" value="3"> 
                                 </div>
                     </div>
                     <div class="pacer_card">
@@ -220,10 +225,10 @@
                             <h3 class="h3_pacer">Colaboração:</h3> 
                         </div>
                                 <div class="pacer_check">
-                                    <input type="radio" id="nota0" name="colab_dt" value="0">
-                                    <input type="radio" id="nota1" name="colab_dt" value="1">
-                                    <input type="radio" id="nota2" name="colab_dt" value="2">
-                                    <input type="radio" id="nota3" name="colab_dt" value="3"> 
+                                    <input type="radio" id="nota0" name="colab_dt{{ i }}" value="0">
+                                    <input type="radio" id="nota1" name="colab_dt{{ i }}" value="1">
+                                    <input type="radio" id="nota2" name="colab_dt{{ i }}" value="2">
+                                    <input type="radio" id="nota3" name="colab_dt{{ i }}" value="3"> 
                                 </div>
                     </div>
                     <div class="pacer_card">
@@ -231,12 +236,13 @@
                             <h3 class="h3_pacer">Entrega de resultados:</h3> 
                         </div>
                                 <div class="pacer_check">
-                                    <input type="radio" id="nota0" name="entrega_dt" value="0">
-                                    <input type="radio" id="nota1" name="entrega_dt" value="1">
-                                    <input type="radio" id="nota2" name="entrega_dt" value="2">
-                                    <input type="radio" id="nota3" name="entrega_dt" value="3"> 
+                                    <input type="radio" id="nota0" name="entrega_dt{{ i }}" value="0">
+                                    <input type="radio" id="nota1" name="entrega_dt{{ i }}" value="1">
+                                    <input type="radio" id="nota2" name="entrega_dt{{ i }}" value="2">
+                                    <input type="radio" id="nota3" name="entrega_dt{{ i }}" value="3"> 
                                 </div>
                     </div>
+                    {% endfor %}
                     <div class="email_geral">
                         <input type="email" name="email_destinatario" placeholder="Digite o e-mail">
                         <button type="submit" class="submit">Enviar</button>
