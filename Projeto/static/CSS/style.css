@@ -227,6 +227,17 @@ nav{
     border-radius: 15px; /* Adicione uma borda arredondada à imagem */
     margin-left: 10px; /* Adicione margem à esquerda da imagem para separá-la do texto */
 }
+@media (max-width: 412px) {
+    .card {
+        width: calc(40% - 40px);
+    }
+}
+
+@media (max-width: 915px) {
+    .card {
+        width: calc(100% - 40px);
+    }
+}
 
 /* FIM DOS CARDS  */
 
