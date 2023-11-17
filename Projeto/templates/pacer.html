@@ -2,6 +2,7 @@
 {% extends "base.html" %}
 {% block main %}
 
+<div class="pacer_card_mae">
 <div class="card_pacer" id="card1">
     <div class="card-content">
         <h2><b>O que é a avaliação PACER?</b></h2>
@@ -70,12 +71,12 @@
     </div>
 </div>
 </div>
-
+</div> <!-- pacer_card_mae -->
 <div class="btn_criar_equipe" > 
     <a id ="button_criar_equipe" href="/teste" lang="en"> Criar Equipe</a>
 </div>
 <!--Início Avaliação PACER-->
-
+   
     <h1 class="h1_pacer">Avaliação PACER</h1>
             <form method="post" action="/Criar">
                 <div class="pacer_card_geral">
@@ -275,7 +276,8 @@
                         </tbody>
                     </table>
                 </div>    
-                </div>
+                
+            
                 
 {% endblock %}
 
