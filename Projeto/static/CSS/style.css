@@ -220,6 +220,14 @@ header {
 /* FIM DOS CARDS  */
 
 /* Inicio do PACER */
+/* inicio responsivo pacer */
+
+
+
+
+
+
+
 .h1_pacer{
     margin-left: 4%;
 }
@@ -604,9 +612,6 @@ height: 10%;
 left: 47%;
 top: 12%;
 
-
-
-
 }
 .imagem_web{
    
@@ -623,12 +628,7 @@ top: 12%;
     text-align: right;
 }
     
-    
-    
-
-   
 /* Fim */
-
 
 /* Inicio das Perguntas */
 .container{
@@ -665,7 +665,7 @@ p{
 
 .container1{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -685,7 +685,7 @@ p{
 
 .container2{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -704,7 +704,7 @@ p{
 
 .container3{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -723,7 +723,7 @@ p{
 
 .container4{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -742,7 +742,7 @@ p{
 
 .container5{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -765,6 +765,29 @@ p{
     font-weight: bold;
 }
 
+@media only screen and (max-width: 767px) {
+    .question{
+        text-align: justify;
+        align-items: center;
+        padding-right: 50px;
+        white-space: normal;
+    }
+    .options{
+        width: 120%;
+    }
+
+    .option{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .justificativa_pergunta-texto{
+        width: 20%;
+    }
+
+}
+
 .container_perguntas{
     padding-left: 50px;
 }
@@ -772,6 +795,8 @@ p{
 .choice-container{
     width: 75%;
 }
+
+
 /* Fim dos Artefatos  */
 
 #h2_1{
