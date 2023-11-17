@@ -37,22 +37,43 @@
   cursor: pointer;
 }
 
+@media screen and (max-width:915px){
+  .tela_login{
+    margin-left: 1% ;
+    margin-right: 25%;
+
+
+  }
+
+  .tela_login input{
+  padding: 15px;
+  
+  width: 150px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+
+}
+
+
+
+}
 
 
 </style>
 
 
-<form action="POST">
+
 <div class="tela_login">
   <form action="/limitante" method="post">
 
     <h1> Adicione sua equipe! </h1>
     <br>
-    <input type="text" placeholder="Número de DevTeams" name="quantidade_de_dev_teams">
+    <input type="number" placeholder="Número de DevTeams" name="quantidade_de_dev_teams">
     <br><br>
     
     <button>Criar</button>
   </form>
 </div>
-</form>
+
 {% endblock %}
