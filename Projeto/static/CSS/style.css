@@ -49,8 +49,8 @@ footer{
 /* COMEÇO DO MENU RESPONSIVO*/
 
 header {
-    background-color: rgb(105, 105 ,105);
-    box-shadow: 0px 3 px 10px #464646;
+    background-color: #000000;
+   
     
 }
 
@@ -70,6 +70,7 @@ header {
 .nav-list {
     display: flex;
     align-items: center;
+    margin-right: 6%;
 }
 
 .nav-list ul {
@@ -147,30 +148,7 @@ header {
 /* FIM DO MENU RESPONSIVO*/
 
 
-nav{
-    width: 100%;
-    border: 0px red solid;   
-}
-.submenu{
-    height: 40px;
-    padding: 0 7%;
-    background-color: #D9D9D9;
-    border: 0px red solid;
-    display: flex;
-    justify-content:space-around;
-    flex-direction: row;
-    align-items: center;
-    
-    
-}
-.submenu a{
-    color: black;
-    text-decoration:none;
-    font-weight: bold;
- 
 
-   
-}
 /* COMEÇO DOS CARDS */
 
 /* Estilos para o body (opcional) */
