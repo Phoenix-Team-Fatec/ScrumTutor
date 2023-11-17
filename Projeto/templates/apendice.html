@@ -1,19 +1,6 @@
 {% extends "base.html" %}
 
-{% block header %}
-<nav>
-    <div class="submenu">
-            <a href="#card1">Auto-Organização</a>
-            <a href="#card2">Facilitação</a>
-            <a href="#card3">Visão</a>
-            <a href="#card4">User Stories</a>
-            <a href="#card5">Estimativa</a>
-            <a href="#card6">Perguntas</a>
-    </div>
 
-</nav>
-
-{% endblock %}
 
 {% block main %}
 
@@ -340,27 +327,6 @@
 
         
 
-        <script>
-          function checkAnswer(question, clickedButton) {
-              var buttons = document.querySelectorAll('[data-question="' + question + '"]');
-              var correctAnswer;
-              var wrongAnswers = [];
-          
-              for (var i = 0; i < buttons.length; i++) {
-                  if (buttons[i].getAttribute('data-answer') === 'correct') {
-                      correctAnswer = buttons[i];
-                  } else {
-                      wrongAnswers.push(buttons[i]);
-                  }
-              }
-          
-              for (var i = 0; i < wrongAnswers.length; i++) {
-                  wrongAnswers[i].style.backgroundColor = '#FF7070';
-              }
-              correctAnswer.style.backgroundColor = '#79FBAD';
-              clickedButton.style.backgroundColor = clickedButton.getAttribute('data-answer') === 'correct' ? '#79FBAD' : '#FF7070';
-          }
-          </script>
 
 </main>
     
