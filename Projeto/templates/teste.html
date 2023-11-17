@@ -6,10 +6,7 @@
 
 .tela_login{
   background-color: rgba(0,0,0,0.9);
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  margin: 2% 30%;
   padding: 80px;
   border-radius: 15px;
   color: #fff;
@@ -47,13 +44,15 @@
 
 
 <div class="tela_login">
+  <form action="/limitante" method="post">
+
     <h1> Adicione sua equipe! </h1>
     <br>
-    <input type="text" placeholder="Número de participantes">
+    <input type="text" placeholder="Número de DevTeams" name="quantidade_de_dev_teams">
     <br><br>
-   
     
     <button>Criar</button>
+  </form>
 </div>
 
 {% endblock %}
