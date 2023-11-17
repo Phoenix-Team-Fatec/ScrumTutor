@@ -8,34 +8,61 @@
     <title>PHOENIX - TEAM</title>
     <link rel="stylesheet" href="../static/CSS/reset.css">
     <link rel="stylesheet" href="../static/CSS/style.css">
+    <script type="text/javascript" src="../static/perguntas.js" defer></script>
 </head>
 
 <body>
     <header class="header">
-        <section class="header__menu">
-            <div class="header__menu_logo"></div>
-            <div class="header__menu_links">
-                <p class="header__menu_links_link"></p>
-                <div id="logo">
-                    <img src="../static/IMG/ScrumTutor.jpg">
-                </div>
-                <nav id="menu_principal">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/artefatos">Artefatos do Scrum</a></li>
-                        <li><a href="/Eventos">Eventos do Scrum</a></li>
-                        <li><a href="/Papéis">Papéis do Scrum</a></li>
-                        <li><a href="/Apendice">Apêndice</a></li>
-                        <li><a href="/Bibliografia">Bibliografia</a></li>
-                        
-                    </ul>
-                </nav>
+        <script>
+            function menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon').src = "assets/img/menu_white_36dp.svg";
+    } else {
+        menuMobile.classList.add('open');
+        document.querySelector('.icon').src = "assets/img/close_white_36dp.svg";
+    }
+}
+        </script>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="../static/IMG/ScrumTutor.jpg">
             </div>
-        </section>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="/artefatos" class="nav-link">Artefatos do Scrum</a></li>
+                    <li class="nav-item"><a href="/Eventos" class="nav-link">Eventos do Scrum</a></li>
+                    <li class="nav-item"><a href="/Papéis" class="nav-link">Papéis do Scrum</a></li>
+                    <li class="nav-item"><a href="/Apendice" class="nav-link">Apêndice</a></li>
+                    <li class="nav-item"><a href="/Bibliografia" class="nav-link">Bibliografia</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/artefatos" class="nav-link">Artefatos do Scrum</a></li>
+                <li class="nav-item"><a href="/Eventos" class="nav-link">Eventos do Scrum</a></li>
+                <li class="nav-item"><a href="/Papéis" class="nav-link">Papéis do Scrum</a></li>
+                <li class="nav-item"><a href="/Apendice" class="nav-link">Apêndice</a></li>
+                <li class="nav-item"><a href="/Bibliografia" class="nav-link">Bibliografia</a></li>
+            </ul>
+        </div>
+        
         <section class="header__submmenu">
             {% block header %}
             {% endblock %}
         </section>
+        </section>
+        
     </header>
     <main class="main">
 

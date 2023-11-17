@@ -46,66 +46,109 @@ footer{
 
 /* FIM DO RODAPÉ */
 
-/* COMEÇO DO MENU */
-div #logo img{
-    position:absolute;
-    max-width: 100%;
-    margin-top: 15px;
-    margin-left: 8%;
-    height: 6%;
-    border: 0px solid red;      
-}
-#menu_principal{
-    list-style: none;
-    padding: 0;
-    background-color: black;
-    text-align:center;
-}
-#menu_principal li {
-    display: inline
+/* COMEÇO DO MENU RESPONSIVO*/
+
+header {
+    background-color: #000000;
+   
+    
 }
 
-#menu_principal li a {
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 6rem;
+}
+
+.logo img {
+    position:relative;
+    max-width: 167px;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: 6%;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
     color: white;
-    padding: 20px;
+    padding: 5px;
     display: inline-block;
     text-decoration: none;
-    transition: .6s;
+    transition: background .6s;
+
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
 }
 
-#menu_principal li a:hover {
-    color:black;
-    background-color: white;
-    transition: .6s;
+.nav-link:hover{
+    color: rgb(83, 203, 251);
+    padding: 5px;
 }
 
-/* FIM DO COMEÇO */
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav-bar {
+        padding: 0.1rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+/* FIM DO MENU RESPONSIVO*/
 
 
-nav{
-    width: 100%;
-    border: 0px red solid;   
-}
-.submenu{
-    height: 40px;
-    padding: 0 7%;
-    background-color: #D9D9D9;
-    border: 0px red solid;
-    display: flex;
-    justify-content:space-around;
-    flex-direction: row;
-    align-items: center;
-    
-    
-}
-.submenu a{
-    color: black;
-    text-decoration:none;
-    font-weight: bold;
- 
 
-   
-}
 /* COMEÇO DOS CARDS */
 
 /* Estilos para o body (opcional) */
@@ -161,6 +204,17 @@ nav{
     border: 2px solid #000000; /* Adicione uma borda à imagem */
     border-radius: 15px; /* Adicione uma borda arredondada à imagem */
     margin-left: 10px; /* Adicione margem à esquerda da imagem para separá-la do texto */
+}
+@media (max-width: 412px) {
+    .card {
+        width: calc(40% - 40px);
+    }
+}
+
+@media (max-width: 915px) {
+    .card {
+        width: calc(100% - 40px);
+    }
 }
 
 /* FIM DOS CARDS  */
@@ -305,6 +359,7 @@ th{
     display: flex;
     justify-content: center;
 }
+
 
 
 
@@ -557,9 +612,6 @@ height: 10%;
 left: 47%;
 top: 12%;
 
-
-
-
 }
 .imagem_web{
    
@@ -576,12 +628,7 @@ top: 12%;
     text-align: right;
 }
     
-    
-    
-
-   
 /* Fim */
-
 
 /* Inicio das Perguntas */
 .container{
@@ -618,7 +665,7 @@ p{
 
 .container1{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -638,7 +685,7 @@ p{
 
 .container2{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -657,7 +704,7 @@ p{
 
 .container3{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -676,7 +723,7 @@ p{
 
 .container4{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -695,7 +742,7 @@ p{
 
 .container5{
     background-color: rgb(14, 110, 255);
-    width: 90%;
+    width: 75%;
     border-radius: 12px;
     margin: 25px auto;
     border: 0.1rem solid black;
@@ -718,6 +765,29 @@ p{
     font-weight: bold;
 }
 
+@media only screen and (max-width: 767px) {
+    .question{
+        text-align: justify;
+        align-items: center;
+        padding-right: 50px;
+        white-space: normal;
+    }
+    .options{
+        width: 120%;
+    }
+
+    .option{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .justificativa_pergunta-texto{
+        width: 20%;
+    }
+
+}
+
 .container_perguntas{
     padding-left: 50px;
 }
@@ -725,6 +795,8 @@ p{
 .choice-container{
     width: 75%;
 }
+
+
 /* Fim dos Artefatos  */
 
 #h2_1{
@@ -778,86 +850,4 @@ p{
     font-size: 16px;
     background-color: #d9d9d9;
     margin-top: 10px;
-}
-
-@media screen and (max-width: 767px) {
-    /* Estilos para telas menores que 768px */
-    .pacer_card_mae{
-        
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: -8%;
-        margin-right: -8%;
-    }
-    .card_pacer{
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-        background-color:rgb(14, 110, 255);
-        border-radius: 10px;
-        margin: 7px;
-        padding: 7px;
-    }
-    .pacer_card{
-        margin-right: 5%;
-        margin-left: 5%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: baseline;
-        width: 250px;
-        margin-left: 80px;
-    }
-
-    .card_dois{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .card_restante{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .pacer_card_geral{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-left: -6%;
-        margin-right: -6%;
-    }
-    
-    
-    .h1_pacer{
-        font-size: 30px;
-    }
-    .h2_pacer{
-        margin-left: -10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 180px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .h3_pacer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 180px;
-        margin-right: 30%;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .pacer_check{
-        display: ;
-        flex-wrap: ;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 18px;
-    }
-    
-
 }

@@ -1,19 +1,6 @@
 {% extends "base.html" %}
 
-{% block header %}
-<nav>
-    <div class="submenu">
-            <a href="#card1">Sprint</a>
-            <a href="#card2">Sprint Planning</a>
-            <a href="#card3">Daily Scrum</a>
-            <a href="#card4">Sprint Review</a>
-            <a href="#card5">Sprint Retrospective</a>
-            <a href="#card6">Perguntas</a>
-    </div>
 
-</nav>
-
-{% endblock %}
 
 {% block main %}
 <div class="card" id="card1">
@@ -177,11 +164,11 @@
 
 <!--Início das perguntas-->
 <main>
-    <h2 id="perguntas_apendice">Perguntas</h2>
+    <h2 id="perguntas_artefatos">Perguntas</h2>
     <div class="container_perguntas">
     <section>
       <div class="container">
-        <div class="question" id="question">1 - Um Team Scrum, está desenvolvendo e-comercy, após a primeira sprint, o Team Scrum foi fazer a Sprint Planning, porém estavam com dificuldade de planejar a próxima Sprint.
+        <div class="question" id="question">1.Um Team Scrum, está desenvolvendo e-comercy, após a primeira sprint, o Team Scrum foi fazer a Sprint Planning, porém estavam com dificuldade de planejar a próxima Sprint.
             Qual das alternativas a seguir apresenta os termos essenciais a serem planejados na Sprint
             seguinte?</div>
         <div class="options">
@@ -295,27 +282,7 @@
     
         <hr>    
 
-        <script>
-          function checkAnswer(question, clickedButton) {
-              var buttons = document.querySelectorAll('[data-question="' + question + '"]');
-              var correctAnswer;
-              var wrongAnswers = [];
-          
-              for (var i = 0; i < buttons.length; i++) {
-                  if (buttons[i].getAttribute('data-answer') === 'correct') {
-                      correctAnswer = buttons[i];
-                  } else {
-                      wrongAnswers.push(buttons[i]);
-                  }
-              }
-          
-              for (var i = 0; i < wrongAnswers.length; i++) {
-                  wrongAnswers[i].style.backgroundColor = '#FF7070';
-              }
-              correctAnswer.style.backgroundColor = '#79FBAD';
-              clickedButton.style.backgroundColor = clickedButton.getAttribute('data-answer') === 'correct' ? '#79FBAD' : '#FF7070';
-          }
-          </script>
+     
 
 </main>
     

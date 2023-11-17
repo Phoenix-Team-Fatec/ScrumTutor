@@ -18,6 +18,7 @@
       </section>
     </section>    
             <section>
+              <h2 id="perguntas_artefatos">Perguntas</h2>
                 <div class="container">
                     <div class="question" id="question">1. Uma empresa de desenvolvimento de software está enfrentando desafios na gestão de projetos, como atrasos nas
                         entregas, falta de transparência na comunicação da equipe, dificuldade em se adaptar às mudanças no mercado e
@@ -83,27 +84,7 @@
     
             
     
-            <script>
-              function checkAnswer(question, clickedButton) {
-                  var buttons = document.querySelectorAll('[data-question="' + question + '"]');
-                  var correctAnswer;
-                  var wrongAnswers = [];
-              
-                  for (var i = 0; i < buttons.length; i++) {
-                      if (buttons[i].getAttribute('data-answer') === 'correct') {
-                          correctAnswer = buttons[i];
-                      } else {
-                          wrongAnswers.push(buttons[i]);
-                      }
-                  }
-              
-                  for (var i = 0; i < wrongAnswers.length; i++) {
-                      wrongAnswers[i].style.backgroundColor = '#FF7070';
-                  }
-                  correctAnswer.style.backgroundColor = '#79FBAD';
-                  clickedButton.style.backgroundColor = clickedButton.getAttribute('data-answer') === 'correct' ? '#79FBAD' : '#FF7070';
-              }
-              </script>
+          
     
     </section>
 </main>
