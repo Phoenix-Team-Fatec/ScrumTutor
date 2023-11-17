@@ -18,10 +18,10 @@
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "assets/img/menu_white_36dp.svg";
+        document.querySelector('.icon').src = "../static/IMG/menu_white_36dp.svg";
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "assets/img/close_white_36dp.svg";
+        document.querySelector('.icon').src = "../static/IMG/close_white_36dp.svg";
     }
 }
         </script>
@@ -42,7 +42,7 @@
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+                <button onclick="menuShow()"><img class="icon" src="../static/IMG/menu_white_36dp.svg" alt=""></button>
             </div>
         </nav>
 
@@ -57,10 +57,7 @@
             </ul>
         </div>
         
-        <section class="header__submmenu">
-            {% block header %}
-            {% endblock %}
-        </section>
+        
         </section>
         
     </header>
