@@ -278,6 +278,33 @@ th{
     color: white;
 }
 
+#button_criar_equipe{
+    background-color: #000000;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+    border: 1px;
+    border-radius: 20px;
+    
+
+}
+
+.btn_criar_equipe{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
 /* Fim do PACER */
 
 /*carroussel*/
