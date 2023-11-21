@@ -925,4 +925,11 @@ p{
         align-items: center;
         margin-left: 18px;
     }
+    main, header
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
 }
