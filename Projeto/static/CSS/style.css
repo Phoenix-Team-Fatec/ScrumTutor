@@ -77,6 +77,8 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
+    align-items: center;
+    text-align: center;
 }
 
 .nav-item {
@@ -920,10 +922,35 @@ p{
         padding-bottom: 20px;
     }
     .pacer_check{
-        display: ;
-        flex-wrap: ;
         justify-content: space-between;
         align-items: center;
         margin-left: 18px;
+    }
+    .email_geral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .tab_notas{
+        visibility: hidden;
+    }
+    .tab_notas_mob{
+        margin-top: -140px;
+        color: white;
+    }
+    .th_pacer_mob{
+    }
+    .th_pacer{
+    }
+    .th_pacer_mob{
+    }
+}
+@media screen and (min-width: 769px){
+    .tab_notas_mob{
+        visibility: hidden;
     }
 }
