@@ -145,6 +145,12 @@ header {
     .open {
         display: block;
     }
+
+    /*rodapé*/
+    #footer_content {
+        grid-template-columns: 1fr; /* Uma coluna para dispositivos móveis */
+        padding: 1rem; /* Reduzir o padding para economizar espaço */
+      }
 }
 
 /* FIM DO MENU RESPONSIVO*/
@@ -181,6 +187,11 @@ header {
     font-size: 1.5rem;
     margin: 0;
     color: #ffffff;
+    text-shadow:
+    -2px -2px 0 #000,  /* Sombra superior esquerda */
+    2px -2px 0 #000,   /* Sombra superior direita */
+    -2px 2px 0 #000,   /* Sombra inferior esquerda */
+    2px 2px 0 #000;    /* Sombra inferior direita */
 }
 
 .card p {
@@ -303,6 +314,11 @@ header {
 }
 .card-content h2{
     color: #ffffff;
+    text-shadow:
+    -2px -2px 0 #000,  /* Sombra superior esquerda */
+    2px -2px 0 #000,   /* Sombra superior direita */
+    -2px 2px 0 #000,   /* Sombra inferior esquerda */
+    2px 2px 0 #000;    /* Sombra inferior direita */
 }
 .card-content p{
     color: #ffffff;
