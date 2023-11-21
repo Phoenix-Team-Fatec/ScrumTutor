@@ -782,8 +782,9 @@ p{
         justify-content: flex-start;
     }
 
-    .justificativa_pergunta-texto{
-        width: 20%;
+    .justificativa_pergunta{
+        width: 50%;
+        text-align: center;
     }
 
 }
