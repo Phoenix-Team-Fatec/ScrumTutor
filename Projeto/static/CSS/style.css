@@ -873,6 +873,12 @@ p{
 
 @media screen and (max-width: 767px) {
     /* Estilos para telas menores que 768px */
+    main, header{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
     .pacer_card_mae{
         display: flex;
         flex-wrap: wrap;
@@ -956,7 +962,7 @@ p{
         visibility: hidden;
     }
     .tab_notas_mob{
-        margin-top: -140px;
+        margin-top: -70px;
         color: white;
     }
     .th_pacer_mob{
