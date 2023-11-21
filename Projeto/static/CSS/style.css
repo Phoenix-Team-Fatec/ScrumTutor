@@ -921,10 +921,16 @@ p{
         padding-bottom: 20px;
     }
     .pacer_check{
-        display: ;
-        flex-wrap: ;
+     
         justify-content: space-between;
         align-items: center;
         margin-left: 18px;
+    }
+    main, header
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
     }
 }
