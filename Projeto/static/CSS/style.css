@@ -282,6 +282,7 @@ header {
 .card li {
     font-size: 1rem;
     color: #ffffff;
+    text-align: justify;
 }
 
 .card h3{
@@ -291,6 +292,9 @@ header {
 }
 
 .card img {
+    margin: 2% auto; /*distancia do texto acima*/
+    margin-left: 20px; /* distancia texto lado*/
+    float: right;
     width: 500px;
     max-width: 800px; /* Defina a largura máxima da imagem */
     height: 300px;
@@ -299,6 +303,9 @@ header {
     margin-left: 10px; /* Adicione margem à esquerda da imagem para separá-la do texto */
 }
 @media (max-width: 412px) {
+    .card img{
+        display: none;
+    }
     .card {
         width: calc(40% - 40px);
     }
@@ -308,6 +315,8 @@ header {
     .card {
         width: calc(100% - 40px);
     }
+    .card img{
+        display: none;}
 }
 
 /* FIM DOS CARDS  */
