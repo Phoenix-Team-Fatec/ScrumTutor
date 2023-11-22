@@ -24,7 +24,9 @@ body{
 
 
 /* COMEÇO DA TELA BOAS-VINDAS */
-
+.corpo_boas_vindas{
+    overflow: hidden;
+}
 .phoenixlogo img{
     max-width: 400px;
 }
@@ -67,7 +69,7 @@ body{
 
 section.bemvindo {
     width: 100%;
-    padding: 300px 0;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +81,10 @@ section.bemvindo {
     animation-iteration-count: infinite;
     animation-direction:alternate;
 }
-
+.overlay  a {
+    text-decoration: none;
+    color: #fff;
+}
 @keyframes degrade {
     0%{
         background-position-x: 0%;
@@ -188,7 +193,7 @@ header {
 
 @media screen and (max-width: 1100px) {
     .nav-bar {
-        padding: 0.1rem 4rem;
+        padding: 0;
     }
 
     .nav-item {
@@ -386,6 +391,7 @@ header {
 }
 .card-content li{
     color: #ffffff;
+    margin: 10px 0;
 }
 .card-content h2{
     color: #ffffff;
@@ -681,51 +687,26 @@ th{
 /* Fim  */
 
 /* Bibliografia */
-.linha{
-    border-left: 5px solid black;
-    height: 1200px;
-    position: absolute;
-    left: 50%;
-    margin-left: 3px;
-    
-}
-.links_internet{
-    width: 500px;
-    border: 0px solid red;
-    padding-top: 15%;
-    text-align: justify;
-    
+.imagem_web{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
 }
 .imagem_livro{
-
-
-position: absolute;
-width: 10%;
-height: 10%;
-left: 47%;
-top: 12%;
-
-}
-.imagem_web{
-   
-    position: absolute;
-}
-.texto_livro{
-    padding-left: 15%;
-    padding-top: 10%;
-    
-    
-}
-.tudo_bibliografia{
+    margin: 10px 0;
     display: flex;
-    text-align: right;
+    justify-content: center;
 }
-    
+.texto_livro li, .links_internet li{
+    list-style:square;
+    margin: 15px 0;
+}
 /* Fim */
 
 /* Inicio das Perguntas */
 .container{
     font-family:Poppins;
+    margin: 20px;
 }
 .choice-container{
     background-color: #d9d9d9;
@@ -862,28 +843,19 @@ p{
     .question{
         text-align: justify;
         align-items: center;
-        padding-right: 50px;
         white-space: normal;
-    }
-    .options{
-        width: 120%;
     }
 
     .option{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        width: 80%;
     }
-
-    .justificativa_pergunta{
-        width: 50%;
-        text-align: center;
-    }
-
 }
 
 .container_perguntas{
-    padding-left: 50px;
+    align-items: center;
 }
 
 .choice-container{
@@ -948,11 +920,11 @@ p{
 
 @media screen and (max-width: 767px) {
     /* Estilos para telas menores que 768px */
-    main, header{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
+    .button{
+        width: 100%;
+    }
+    .option{
+        width: 100%;
     }
     .pacer_card_mae{
         display: flex;
@@ -1034,10 +1006,10 @@ p{
         margin-bottom: 30px;
     }
     .tab_notas{
-        visibility: hidden;
+        display: none;
     }
     .tab_notas_mob{
-        margin-top: -70px;
+        margin: 20px 0;
         color: white;
     }
     .th_pacer_mob{
@@ -1049,6 +1021,101 @@ p{
 }
 @media screen and (min-width: 769px){
     .tab_notas_mob{
-        visibility: hidden;
+        display: none;
     }
+}@media screen and (max-width: 767px) {
+    /* Estilos para telas menores que 768px */
+    /* main, header{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    } */
+    .pacer_card_mae{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -8%;
+        margin-right: -8%;
+    }
+    .card_pacer{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        background-color:rgb(14, 110, 255);
+        border-radius: 10px;
+        margin: 7px;
+        padding: 7px;
+    }
+    .pacer_card{
+        margin-right: 5%;
+        margin-left: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 250px;
+        margin-left: 80px;
+    }
+
+    .card_dois{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card_restante{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pacer_card_geral{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: -6%;
+        margin-right: -6%;
+    }
+    .h1_pacer{
+        font-size: 30px;
+    }
+    .h2_pacer{
+        margin-left: -10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 180px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .h3_pacer{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 180px;
+        margin-right: 30%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .pacer_check{
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 18px;
+    }
+    .card{
+        padding: 0px;
+    }
+    form h1{
+        padding: 0px;
+    }
+    .tela_login {
+        background-color: rgba(0,0,0,0.9);
+        margin: 0;
+        padding: 60px;
+        border-radius: 15px;
+        color: #fff;
+}
+.tela_login input {
+    width: 70%;
+}
 }
