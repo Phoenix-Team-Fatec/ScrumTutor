@@ -1010,6 +1010,7 @@ p{
         padding-bottom: 10px;
     }
     .h3_pacer{
+        
         display: flex;
         justify-content: center;
         align-items: center;
