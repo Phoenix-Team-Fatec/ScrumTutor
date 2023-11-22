@@ -137,12 +137,12 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 0.1rem 6rem;
+    margin: 0 10%;
 }
 
 .logo img {
     position:relative;
-    max-width: 167px;
+    max-width: 137px;
     margin-top: 3px;
     margin-left: 30px;
 }
@@ -914,7 +914,7 @@ p{
     justify-content: flex-start;
     border-radius: 12px;
     font-size: 16px;
-    background-color: #d9d9d9;
+    background-color: #cedeff;
     margin-top: 10px;
 }
 
