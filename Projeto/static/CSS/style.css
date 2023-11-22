@@ -23,6 +23,81 @@ body{
 }
 
 
+/* COMEÇO DA TELA BOAS-VINDAS */
+
+.phoenixlogo img{
+    max-width: 400px;
+}
+
+.phoenixlogo .texto {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.phoenixlogo .botoes {
+    margin-top: 30px;
+}
+
+.phoenixlogo .botoes button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border:0;
+    margin: 0 10px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.phoenixlogo .botoes button.overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+.phoenixlogo .botoes button.overlay:hover {
+    color: white;
+    background: rgb(119,136,153);
+    border: 2px solid white;
+}
+
+section.bemvindo {
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, rgb(12, 36, 60), rgb(4, 67, 242),rgb(192, 215, 251));
+    background-size: 500% 100%;
+    animation-name: degrade;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    padding: 15px 30px;
+
+}
+
+/* FIM DA TELA BOAS-VINDAS */
 
 /* COMEÇO DO RODAPÉ */
 footer{
@@ -77,6 +152,8 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
+    align-items: center;
+    text-align: center;
 }
 
 .nav-item {
@@ -143,6 +220,12 @@ header {
     .open {
         display: block;
     }
+
+    /*rodapé*/
+    #footer_content {
+        grid-template-columns: 1fr; /* Uma coluna para dispositivos móveis */
+        padding: 1rem; /* Reduzir o padding para economizar espaço */
+      }
 }
 
 /* FIM DO MENU RESPONSIVO*/
@@ -179,6 +262,11 @@ header {
     font-size: 1.5rem;
     margin: 0;
     color: #ffffff;
+    text-shadow:
+    -2px -2px 0 #000,  /* Sombra superior esquerda */
+    2px -2px 0 #000,   /* Sombra superior direita */
+    -2px 2px 0 #000,   /* Sombra inferior esquerda */
+    2px 2px 0 #000;    /* Sombra inferior direita */
 }
 
 .card p {
@@ -301,6 +389,11 @@ header {
 }
 .card-content h2{
     color: #ffffff;
+    text-shadow:
+    -2px -2px 0 #000,  /* Sombra superior esquerda */
+    2px -2px 0 #000,   /* Sombra superior direita */
+    -2px 2px 0 #000,   /* Sombra inferior esquerda */
+    2px 2px 0 #000;    /* Sombra inferior direita */
 }
 .card-content p{
     color: #ffffff;
@@ -756,8 +849,9 @@ p{
         justify-content: flex-start;
     }
 
-    .justificativa_pergunta-texto{
-        width: 20%;
+    .justificativa_pergunta{
+        width: 50%;
+        text-align: center;
     }
 
 }
@@ -828,6 +922,12 @@ p{
 
 @media screen and (max-width: 767px) {
     /* Estilos para telas menores que 768px */
+    main, header{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
     .pacer_card_mae{
         display: flex;
         flex-wrap: wrap;
@@ -884,6 +984,7 @@ p{
         padding-bottom: 10px;
     }
     .h3_pacer{
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -894,9 +995,15 @@ p{
         padding-bottom: 20px;
     }
     .pacer_check{
-     
         justify-content: space-between;
         align-items: center;
         margin-left: 18px;
+    }
+    main, header
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
     }
 }

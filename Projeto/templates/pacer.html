@@ -275,6 +275,30 @@
                         </tbody>
                     </table>
                 </div>    
+                <div class="tab_notas_mob">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="th_pacer_mob">Papel</th>
+                                <th class="th_pacer_mob">Proat.</th>
+                                <th class="th_pacer_mob">Aut.</th>
+                                <th class="th_pacer_mob">Colab.</th>
+                                <th class="th_pacer_mob">Entrega</th>
+                            </tr>
+                        </thead>
+                        <tbody class="th_pacer_mob">
+                            {% for item in listas %}     
+                            <tr>
+                                <td>{{ item.papel }}</td>
+                                <td>{{ item.proatividade }}</td>
+                                <td>{{ item.autonomia }}</td>
+                                <td>{{ item.colaboracao }}</td>
+                                <td>{{ item.entrega }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>  
                 
             
                 
