@@ -588,46 +588,20 @@ th{
 /* Fim  */
 
 /* Bibliografia */
-.linha{
-    border-left: 5px solid black;
-    height: 1200px;
-    position: absolute;
-    left: 50%;
-    margin-left: 3px;
-    
-}
-.links_internet{
-    width: 500px;
-    border: 0px solid red;
-    padding-top: 15%;
-    text-align: justify;
-    
+.imagem_web{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
 }
 .imagem_livro{
-
-
-position: absolute;
-width: 10%;
-height: 10%;
-left: 47%;
-top: 12%;
-
-}
-.imagem_web{
-   
-    position: absolute;
-}
-.texto_livro{
-    padding-left: 15%;
-    padding-top: 10%;
-    
-    
-}
-.tudo_bibliografia{
+    margin: 10px 0;
     display: flex;
-    text-align: right;
+    justify-content: center;
 }
-    
+.texto_livro li, .links_internet li{
+    list-style:square;
+    margin: 15px 0;
+}
 /* Fim */
 
 /* Inicio das Perguntas */
@@ -924,12 +898,5 @@ p{
         justify-content: space-between;
         align-items: center;
         margin-left: 18px;
-    }
-    main, header
-    {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
     }
 }
