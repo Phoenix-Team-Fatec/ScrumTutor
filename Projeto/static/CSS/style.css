@@ -23,6 +23,81 @@ body{
 }
 
 
+/* COMEÇO DA TELA BOAS-VINDAS */
+
+.phoenixlogo img{
+    max-width: 400px;
+}
+
+.phoenixlogo .texto {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.phoenixlogo .botoes {
+    margin-top: 30px;
+}
+
+.phoenixlogo .botoes button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border:0;
+    margin: 0 10px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.phoenixlogo .botoes button.overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+.phoenixlogo .botoes button.overlay:hover {
+    color: white;
+    background: rgb(119,136,153);
+    border: 2px solid white;
+}
+
+section.bemvindo {
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, rgb(12, 36, 60), rgb(4, 67, 242),rgb(192, 215, 251));
+    background-size: 500% 100%;
+    animation-name: degrade;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    padding: 15px 30px;
+
+}
+
+/* FIM DA TELA BOAS-VINDAS */
 
 /* COMEÇO DO RODAPÉ */
 footer{
