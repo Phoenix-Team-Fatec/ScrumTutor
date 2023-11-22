@@ -33,6 +33,10 @@ mail = Mail(app)
 # ROTAS DA WEB
 
 @app.route('/')
+def boas():
+    return render_template('boas-vindas.html')
+
+@app.route('/home')
 def home():
     return render_template('index.html')
 

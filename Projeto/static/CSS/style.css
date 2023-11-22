@@ -24,7 +24,9 @@ body{
 
 
 /* COMEÇO DA TELA BOAS-VINDAS */
-
+.corpo_boas_vindas{
+    overflow: hidden;
+}
 .phoenixlogo img{
     max-width: 400px;
 }
@@ -67,7 +69,7 @@ body{
 
 section.bemvindo {
     width: 100%;
-    padding: 300px 0;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +81,10 @@ section.bemvindo {
     animation-iteration-count: infinite;
     animation-direction:alternate;
 }
-
+.overlay  a {
+    text-decoration: none;
+    color: #fff;
+}
 @keyframes degrade {
     0%{
         background-position-x: 0%;
