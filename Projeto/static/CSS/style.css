@@ -391,6 +391,7 @@ header {
 }
 .card-content li{
     color: #ffffff;
+    margin: 10px 0;
 }
 .card-content h2{
     color: #ffffff;
@@ -841,27 +842,25 @@ p{
     .question{
         text-align: justify;
         align-items: center;
-        padding-right: 50px;
         white-space: normal;
-    }
-    .options{
     }
 
     .option{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        width: 80%;
     }
 
     .justificativa_pergunta{
         width: 50%;
-        text-align: center;
+        text-align: left;
     }
 
 }
 
 .container_perguntas{
-    padding-left: 50px;
+    align-items: center;
 }
 
 .choice-container{
