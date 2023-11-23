@@ -291,11 +291,38 @@ header {
 
 }
 
+/*imagens card 1 e 5 artefatos enquadramento resolução nativos e tirando bordas*/
+#art1{ /*basicamente id para priorizar as mudanças feitas no css .card img{}*/
+    width: auto; 
+    height: 300px;
+    border: hidden;  
+}
+
+/*imgcard 3,4 artefatos enquadramento e resolução nativos e mantém bordas*/
+#art2{
+    width: auto;
+    height: auto;
+}
+/* card img2 artefatos linkadas a id art3 para  definição de largura x altura especificas ,mantém bordas*/
+#art3{
+    width: 400px;
+    height: 200px;
+}
+
+#arteventos{
+    width: auto;
+    height: auto;
+}
+
+#artapendice{
+    width: 600px;
+    height: auto;
+}
+
 .card img {
-    margin: 2% auto; /*distancia do texto acima*/
-    margin-left: 20px; /* distancia texto lado*/
+    margin: auto; /*distancia do texto acima*/
     float: right;
-    width: 500px;
+    width: auto;
     max-width: 800px; /* Defina a largura máxima da imagem */
     height: 300px;
     border: 2px solid #000000; /* Adicione uma borda à imagem */
