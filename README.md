@@ -143,6 +143,14 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 |Criação de comando "Enviar por E-mail"| :white_check_mark: |
 
 ### Sprint 4 - Estilização
+| ITEM   | STATUS |
+| :----: | :----: |
+|Responsividade do Menu| :white_check_mark: |
+|Função Adicionar Participantes e Responsividade do PACER| :white_check_mark: |
+|Responsividade dos Cards| :white_check_mark: |
+|Responsividade das Perguntas| :white_check_mark: |
+
+
 
 <span id="tecnologias">
 
