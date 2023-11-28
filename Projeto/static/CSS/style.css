@@ -171,11 +171,11 @@ header {
     display: inline-block;
     text-decoration: none;
     transition: background .6s;
-
     text-decoration: none;
     font-size: 1rem;
     color: #fff;
     font-weight: 400;
+
 }
 
 .nav-link:hover{
@@ -736,6 +736,7 @@ th{
 .texto_livro li, .links_internet li{
     list-style:square;
     margin: 15px 0;
+    
 }
 /* Fim */
 
@@ -887,6 +888,12 @@ p{
         flex-direction: row;
         justify-content: flex-start;
         width: 80%;
+    }
+    .texto_livro li, .links_internet li{
+        list-style:square;
+        margin: 15px 0;
+        font-size: 12px;
+        
     }
 }
 
