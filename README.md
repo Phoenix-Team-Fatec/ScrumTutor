@@ -23,7 +23,7 @@ Para clientes interessados em compreender e aplicar o método Scrum em suas equi
 
 
 > _O nosso produto tem como propósito simplificar o acesso do cliente a informações relacionadas ao SCRUM e aplicações desse método por meio de uma interface convidativa e intuitiva._ <br><br>
-> **Status do Projeto: Em processo** :heavy_minus_sign:
+> **Status do Projeto: Finalizado** :heavy_minus_sign:
 
 ## MVP
 <span id="mvp">
